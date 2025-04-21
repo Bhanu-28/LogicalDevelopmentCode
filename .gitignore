@@ -2,7 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-
+/.metadata/
+/output
+/.sonarlint
+/.idea
 ### Eclipse ###
 .apt_generated
 .classpath
