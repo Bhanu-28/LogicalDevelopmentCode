@@ -5,8 +5,9 @@ public class RotatedSearchSortedArrayTimeComplexity {
         int[] arr = {3,4,5,6,7,1,2};
         int[] arr1 = {5,1,3};
         int[] arr2 = {4,5,6,7,8,1,2,3};
+        int[] arr3 = {1,0,1,1,1};
 
-        System.out.println(search(arr2,8));
+        System.out.println(search(arr3,0));
     }
 
     static int search(int[] nums , int target){
