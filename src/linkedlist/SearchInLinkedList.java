@@ -32,7 +32,7 @@ public class SearchInLinkedList{
         System.out.print("Please Enter an Element to search in LinkedList :");
         int elementToSearch = sc.nextInt();
 
-        int location = searchElement(n1,elementToSearch);
+        int location = searchElementRecursive(n1,elementToSearch);
 
         if(location == -1){
             System.out.println("Element not found");
@@ -61,6 +61,23 @@ public class SearchInLinkedList{
         position = -1;
 
          return position;
+     }
+
+
+     static  int searchElementRecursive(Node head,int elementToSearch){
+
+         // 10 , 29 , 100 , 20
+
+        Node curr = head;
+        if(curr == null) return -1;
+        if(curr.data == elementToSearch){
+            return 1;
+        }
+        else{
+            int res = searchElementRecursive(curr.next,elementToSearch);
+            if(res == -1) return -1;
+            else return (res+1);
+        }
      }
 
 }
