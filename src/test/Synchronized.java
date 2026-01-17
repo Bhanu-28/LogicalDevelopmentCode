@@ -5,7 +5,14 @@ class Counter{
 
     private int counter = 0;
 
+/*
 
+Explanation: Both threads increment the same counter concurrently.
+Since the inc() and get() methods are synchronized,
+only one thread can access them at a time, ensuring the correct final count.
+
+
+ */
     public synchronized void increment(){
 
         counter++;
