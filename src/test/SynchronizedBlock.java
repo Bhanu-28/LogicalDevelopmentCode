@@ -32,8 +32,12 @@ public class SynchronizedBlock {
 
         t1.start();
         t2.start();
-        t1.join();
-        t2.join();
+        try{
+            t1.join();
+            t2.join();
+        } catch(InterruptedException e){
+            throw new RuntimeException(e);
+        }
 
         System.out.println("Counter: " + cnt.get());
     }
