@@ -1,6 +1,6 @@
 package linkedlist;
 
-public class SimpleLinkedList {
+public class D20251206_SimpleLinkedList {
     public static void main(String[] args) {
 
 

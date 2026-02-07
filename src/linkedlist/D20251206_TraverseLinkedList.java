@@ -1,7 +1,7 @@
 package linkedlist;
 
 
-public class TraverseLinkedList{
+public class D20251206_TraverseLinkedList{
 
     static class Node{
         int data;
