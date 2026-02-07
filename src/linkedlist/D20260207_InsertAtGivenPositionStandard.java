@@ -1,6 +1,6 @@
 package linkedlist;
 
-public class InsertAtGivenPositionStandard {
+public class D20260207_InsertAtGivenPositionStandard {
 
     public static void main(String[] args) {
 
@@ -99,5 +99,3 @@ class Node {
         this.next = null;
     }
 }
-
-

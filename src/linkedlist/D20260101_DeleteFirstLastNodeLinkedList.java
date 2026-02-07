@@ -2,19 +2,19 @@ package linkedlist;
 
 import java.util.Scanner;
 
-public class DeleteFirstLastNodeLinkedList {
+public class D20260101_DeleteFirstLastNodeLinkedList {
 
-    static class Node{
+    static class Node {
         int data;
         Node next;
 
-        Node(int x){
+        Node(int x) {
             this.data = x;
             next = null;
         }
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
         Node node1 = new Node(10);
         Node node2 = new Node(20);
@@ -22,9 +22,8 @@ public class DeleteFirstLastNodeLinkedList {
         Node node4 = new Node(40);
 
         node1.next = node2;
-        node1.next.next  = node3;
+        node1.next.next = node3;
         node1.next.next.next = node4;
-
 
         System.out.println("Before deleting at the Begin");
         printNode(node1);
@@ -43,30 +42,33 @@ public class DeleteFirstLastNodeLinkedList {
 
     }
 
-    static Node deleteAtBegin(Node node){
+    static Node deleteAtBegin(Node node) {
 
-        if(node == null) return null;
-        else{
+        if (node == null)
+            return null;
+        else {
             return node.next;
         }
     }
 
-    static Node deleteAtEnd(Node node){
+    static Node deleteAtEnd(Node node) {
 
-        if(node==null) return null;
-        if(node.next == null) return null;
+        if (node == null)
+            return null;
+        if (node.next == null)
+            return null;
         Node curr = node;
-        while(curr.next.next!=null){
+        while (curr.next.next != null) {
             curr = curr.next;
         }
         curr.next = null;
         return node;
     }
 
-    static void printNode(Node node){
+    static void printNode(Node node) {
 
-        while(node!=null){
-            System.out.print(node.data+"-->");
+        while (node != null) {
+            System.out.print(node.data + "-->");
             node = node.next;
         }
 
