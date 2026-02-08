@@ -28,6 +28,7 @@ src/
 | 6 | 2026-01-01 | Insert at Begin/End | Medium | ✅ | [View](./src/linkedlist/D20260101_InsertAtBeginEndLinkedList.java) |
 | 7 | 2026-02-07 | Insert at Given Position | Medium | ✅ | [View](./src/linkedlist/D20260207_InsertAtGivenPosition.java) |
 | 8 | 2026-02-07 | Insert at Position (Standard) | Medium | ✅ | [View](./src/linkedlist/D20260207_InsertAtGivenPositionStandard.java) |
+| 9 | 2026-02-07 | Sorted Insert | Medium | ✅ | [View](./src/linkedlist/D20260207_SortedInsert.java) |
 
 ---
 
@@ -73,11 +74,11 @@ src/
 
 | Category | Total | Completed |
 |----------|-------|-----------|
-| Linked List | 8 | 8 ✅ |
+| Linked List | 9 | 9 ✅ |
 | Searching | 6 | 6 ✅ |
 | Stream | 1 | 1 ✅ |
 | Two Pointers | 10 | 10 ✅ |
-| **Total** | **25** | **25** |
+| **Total** | **26** | **26** |
 
 ---
 
