@@ -36,3 +36,4 @@ bin/
 .idea/modules.xml
 .idea/vcs.xml
 DSA.iml
+*.iml
