@@ -61,7 +61,14 @@ public class D20260207_SortedInsert {
             curr = curr.next;
         }
 
+        // Important
+        /*
+        Store the curr.next items in newNode.next.
+        Now new Node have newNode and Curr Next Data.
+        Attach it back to curr next.
 
+
+         */
         newNode.next = curr.next;
         curr.next = newNode;
 

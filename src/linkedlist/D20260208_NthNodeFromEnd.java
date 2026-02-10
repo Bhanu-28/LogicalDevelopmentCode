@@ -53,15 +53,20 @@ public class D20260208_NthNodeFromEnd {
             System.out.println();
         }
         void printNthNodeFromEndNaive(int position){
+
+            // find the length of the linked list.
             int length = 0;
             for(Node curr = head; curr!=null; curr= curr.next){
                 length++;
             }
 
+            // if length is less than the position print invalid position from end.
+            // return
             if(length<position){
                 System.out.println("Invalid "+position+"th Position from end");
                 return;
             }
+
 
             Node curr = head;
             for(int i = 1; i < length - position + 1; i ++){
