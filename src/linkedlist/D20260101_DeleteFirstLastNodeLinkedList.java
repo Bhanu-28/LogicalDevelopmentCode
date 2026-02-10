@@ -53,6 +53,8 @@ public class D20260101_DeleteFirstLastNodeLinkedList {
 
     static Node deleteAtEnd(Node node) {
 
+//         1, 2 , 3 , 4 , 5
+
         if (node == null)
             return null;
         if (node.next == null)
