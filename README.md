@@ -18,17 +18,20 @@ src/
 
 ## 🔗 Linked List Practice Tracker
 
-| # | Date | Problem | Difficulty | Status | View |
-|---|------|---------|------------|--------|------|
-| 1 | 2025-12-06 | Simple Linked List | Easy | ✅ | [View](./src/linkedlist/D20251206_SimpleLinkedList.java) |
-| 2 | 2025-12-06 | Traverse Linked List | Easy | ✅ | [View](./src/linkedlist/D20251206_TraverseLinkedList.java) |
-| 3 | 2026-01-01 | Recursive Linked List | Medium | ✅ | [View](./src/linkedlist/D20260101_RecursiveLinkedList.java) |
-| 4 | 2026-01-01 | Search in Linked List | Easy | ✅ | [View](./src/linkedlist/D20260101_SearchInLinkedList.java) |
-| 5 | 2026-01-01 | Delete First/Last Node | Medium | ✅ | [View](./src/linkedlist/D20260101_DeleteFirstLastNodeLinkedList.java) |
-| 6 | 2026-01-01 | Insert at Begin/End | Medium | ✅ | [View](./src/linkedlist/D20260101_InsertAtBeginEndLinkedList.java) |
-| 7 | 2026-02-07 | Insert at Given Position | Medium | ✅ | [View](./src/linkedlist/D20260207_InsertAtGivenPosition.java) |
-| 8 | 2026-02-07 | Insert at Position (Standard) | Medium | ✅ | [View](./src/linkedlist/D20260207_InsertAtGivenPositionStandard.java) |
-| 9 | 2026-02-07 | Sorted Insert | Medium | ✅ | [View](./src/linkedlist/D20260207_SortedInsert.java) |
+| #  | Date       | Problem                      | Difficulty | Status | View |
+|----|------------|------------------------------|------------|--------|------|
+| 1  | 2025-12-06 | Simple Linked List           | Easy       | ✅ | [View](./src/linkedlist/D20251206_SimpleLinkedList.java) |
+| 2  | 2025-12-06 | Traverse Linked List         | Easy       | ✅ | [View](./src/linkedlist/D20251206_TraverseLinkedList.java) |
+| 3  | 2026-01-01 | Recursive Linked List        | Medium     | ✅ | [View](./src/linkedlist/D20260101_RecursiveLinkedList.java) |
+| 4  | 2026-01-01 | Search in Linked List        | Easy       | ✅ | [View](./src/linkedlist/D20260101_SearchInLinkedList.java) |
+| 5  | 2026-01-01 | Delete First/Last Node       | Medium     | ✅ | [View](./src/linkedlist/D20260101_DeleteFirstLastNodeLinkedList.java) |
+| 6  | 2026-01-01 | Insert at Begin/End          | Medium     | ✅ | [View](./src/linkedlist/D20260101_InsertAtBeginEndLinkedList.java) |
+| 7  | 2026-02-07 | Insert at Given Position     | Medium     | ✅ | [View](./src/linkedlist/D20260207_InsertAtGivenPosition.java) |
+| 8  | 2026-02-07 | Insert at Position (Standard) | Medium     | ✅ | [View](./src/linkedlist/D20260207_InsertAtGivenPositionStandard.java) |
+| 9  | 2026-02-07 | Sorted Insert                | Medium     | ✅ | [View](./src/linkedlist/D20260207_SortedInsert.java) |
+| 10 | 2026-02-08 | Middle of Linked List        | Easy       | ✅ | [View](./src/linkedlist/D20260208_MiddleOfLinkedList.java) |
+| 11 | 2026-02-08 | Nth Node from end            | Medium     | ✅ | [View](./src/linkedlist/D20260208_NthNodeFromEnd.java) |
+| 12 | 2026-02-10 | Reverse a Linked List        | Medium     | ✅ | [View](./src/linkedlist/D20260210_ReverseALinkedList.java) |
 
 ---
 
@@ -72,13 +75,13 @@ src/
 
 ## 📊 Progress Summary
 
-| Category | Total | Completed |
-|----------|-------|-----------|
-| Linked List | 9 | 9 ✅ |
-| Searching | 6 | 6 ✅ |
-| Stream | 1 | 1 ✅ |
-| Two Pointers | 10 | 10 ✅ |
-| **Total** | **26** | **26** |
+| Category | Total  | Completed |
+|----------|--------|-----------|
+| Linked List | 12     | 12 ✅      |
+| Searching | 6      | 6 ✅       |
+| Stream | 1      | 1 ✅       |
+| Two Pointers | 10     | 10 ✅      |
+| **Total** | **29** | **29**    |
 
 ---
 

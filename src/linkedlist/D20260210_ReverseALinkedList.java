@@ -1,5 +1,7 @@
 package linkedlist;
 
+import java.util.ArrayList;
+
 public class D20260210_ReverseALinkedList {
 
         public static void main(String[] args) {
@@ -12,7 +14,16 @@ public class D20260210_ReverseALinkedList {
             linkedList.append(3);
             linkedList.append(4);
 
+            // Time Complexity is O(n)
+            // Auxilary space required is O(1)
             linkedList.reverseALinkedList();
+
+//            Naive Solution with extra space and running a loop twice.
+//            First loop to copy the data into arrayList second one is to add and
+//            add that data in reverse order to head and remove the content in arrayList.
+
+//            linkedList.reverseALinkedListNaive();
+
 
     }
 
@@ -41,6 +52,23 @@ public class D20260210_ReverseALinkedList {
                 }
 
                 head = prev;
+
+                printList();
+
+            }
+
+
+            void reverseALinkedListNaive(){
+
+                ArrayList<Integer> arrayList = new ArrayList<Integer>();
+
+                for(Node curr = head; curr!=null; curr= curr.next){
+                    arrayList.add(curr.data);
+                }
+
+                for(Node curr = head; curr!=null; curr = curr.next){
+                    curr.data = arrayList.remove(arrayList.size()-1);
+                }
 
                 printList();
 
