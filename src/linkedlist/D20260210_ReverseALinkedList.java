@@ -16,13 +16,17 @@ public class D20260210_ReverseALinkedList {
 
             // Time Complexity is O(n)
             // Auxilary space required is O(1)
-            linkedList.reverseALinkedList();
+//            linkedList.reverseALinkedList();
 
 //            Naive Solution with extra space and running a loop twice.
 //            First loop to copy the data into arrayList second one is to add and
 //            add that data in reverse order to head and remove the content in arrayList.
 
 //            linkedList.reverseALinkedListNaive();
+
+            linkedList.reverseALinkedListRecursive(linkedList.head);
+
+            linkedList.printList();
 
 
     }
@@ -72,6 +76,22 @@ public class D20260210_ReverseALinkedList {
 
                 printList();
 
+            }
+
+            Node reverseALinkedListRecursive(Node head){
+
+                if(head == null | head.next == null){
+                    return head;
+                }
+
+                Node rest_head = reverseALinkedListRecursive(head.next);
+
+                Node rest_tail = head.next;
+                rest_tail.next = head;
+
+                head.next = null;
+
+                return rest_head;
             }
 
             void printList(){
