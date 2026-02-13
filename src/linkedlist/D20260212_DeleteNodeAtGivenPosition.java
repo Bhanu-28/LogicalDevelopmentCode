@@ -16,7 +16,7 @@ public class D20260212_DeleteNodeAtGivenPosition {
 
 
 
-        linkedList.deleteANodeAtGivenPosition(linkedList.head,0);
+        linkedList.deleteANodeAtGivenPosition(0);
 
         linkedList.printList();
 
@@ -28,16 +28,16 @@ public class D20260212_DeleteNodeAtGivenPosition {
         private Node head;
 
 
-        Node deleteANodeAtGivenPosition(Node head, int position){
+        Node deleteANodeAtGivenPosition(int position){
 
             Node temp = head;
-            if(position == 0 ){
+            if(position == 1 ){
                 head = temp.next;
                 return head;
             }
 
             Node prev = null;
-            for(int i = 0; i < position; i++){
+            for(int i = 1; i < position; i++){
                 prev = temp;
                 temp = temp.next;
             }
