@@ -1,6 +1,6 @@
 package searching;
 
-public class D20250607_RotatedSearchSortedArrayTimeComplexity1 {
+public class D20250607_RotatedSearchSortedArrayTimeComplexityLatest {
     public static void main(String[] args) {
         int[] arr = { 3, 4, 5, 6, 7, 1, 2 };
         int[] arr1 = { 5, 1, 3 };
