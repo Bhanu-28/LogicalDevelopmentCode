@@ -10,7 +10,7 @@ public class D20260101_InsertAtBeginEndLinkedList {
 
         Node(int x) {
             this.data = x;
-            next = null;
+            this.next = null;
         }
     }
 
