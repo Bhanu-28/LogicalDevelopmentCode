@@ -18,6 +18,7 @@ public class D20260101_RecursiveLinkedList {
         element1.next = new Node(2);
         element1.next.next = new Node(3);
 
+        // print data recursively.
         recursive(element1);
 
     }

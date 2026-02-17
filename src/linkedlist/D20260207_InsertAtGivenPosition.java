@@ -156,7 +156,9 @@ public class D20260207_InsertAtGivenPosition {
             return head;
         }
 
+        //save the current.next in new Node.
         newNode.next = curr.next;
+        // add newNode to curr.next
         curr.next = newNode;
 
         return head;

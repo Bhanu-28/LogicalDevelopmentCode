@@ -30,6 +30,8 @@ public class D20260101_SearchInLinkedList {
         System.out.print("Please Enter an Element to search in LinkedList :");
         int elementToSearch = sc.nextInt();
 
+
+//        Return the position in the linked list
         int location = searchElementRecursive(n1, elementToSearch);
 
         if (location == -1) {
