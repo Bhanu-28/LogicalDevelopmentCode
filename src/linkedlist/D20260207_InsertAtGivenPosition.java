@@ -48,7 +48,7 @@ public class D20260207_InsertAtGivenPosition {
         System.out.println("printing Nodes");
         printNode(node1);
         System.out.println("printing Nodes after Insertion 1");
-        Node newInsertedNodeTSC = insertAtGivenPositionTSC(node1, 3, 3);
+        Node newInsertedNodeTSC = insertAtGivenPositionTSC(node1, 3, 89);
 
         printNode(newInsertedNodeTSC);
         System.out.println("printing Nodes after Insertion 2");
