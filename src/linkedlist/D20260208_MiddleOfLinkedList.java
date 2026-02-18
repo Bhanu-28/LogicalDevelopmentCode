@@ -9,6 +9,9 @@ public class D20260208_MiddleOfLinkedList{
         LinkedList linkedList = new LinkedList();
 
         linkedList.append(1);
+
+        linkedList.printMiddleOfLinkedList();
+
         linkedList.append(100);
         linkedList.append(30);
         linkedList.append(90);

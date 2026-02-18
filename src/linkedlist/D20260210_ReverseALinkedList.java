@@ -22,10 +22,16 @@ public class D20260210_ReverseALinkedList {
 //            First loop to copy the data into arrayList second one is to add and
 //            add that data in reverse order to head and remove the content in arrayList.
 
-//            linkedList.reverseALinkedListNaive();
+            linkedList.reverseALinkedListNaive();
 
-            linkedList.reverseALinkedListRecursive(linkedList.head);
 
+            //
+            Node rest_head = linkedList.reverseALinkedListRecursive(linkedList.head);
+
+            // here head is updated one
+            linkedList.printList(rest_head);
+
+            // here head will be 4 --> null because we modified head recursively.
             linkedList.printList();
 
 
@@ -47,7 +53,7 @@ public class D20260210_ReverseALinkedList {
                     //store next
                     next = curr.next; // Next 2, 3, 4 | 3, 4 | 4  | null
 
-                    // Revere's current Node next pointer
+                    // Reverse's current Node next pointer
                     curr.next = prev; // 1, null |  2, 1 , null | 3, 2, 1, null | 4,3,2,1,null
 
                     prev = curr; // 1 |  2, 1 | 3, 2, 1 | 4, 3, 2, 1
@@ -91,7 +97,20 @@ public class D20260210_ReverseALinkedList {
 
                 head.next = null;
 
+
                 return rest_head;
+            }
+
+            // overloaded method
+            void printList(Node head){
+                Node curr = head;
+
+                while(curr!=null){
+                    System.out.print(curr.data+"-->");
+                    curr = curr.next;
+                }
+                System.out.print(curr);
+                System.out.println();
             }
 
             void printList(){
