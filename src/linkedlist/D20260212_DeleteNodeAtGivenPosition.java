@@ -16,9 +16,10 @@ public class D20260212_DeleteNodeAtGivenPosition {
 
 
 
-        linkedList.deleteANodeAtGivenPosition(0);
+        Node deletedNode = linkedList.deleteANodeAtGivenPosition(3);
 
-        linkedList.printList();
+
+        linkedList.deleteANodeAtGivenPositionRecursive(deletedNode,2);
 
     }
 
@@ -50,7 +51,7 @@ public class D20260212_DeleteNodeAtGivenPosition {
             if(temp == null){
                 return head;
             }
-
+            // check the explanation logic in recursive it is kind of similar.
             prev.next = temp.next;
             return head;
         }
@@ -66,6 +67,10 @@ public class D20260212_DeleteNodeAtGivenPosition {
                 return null;
             }
 
+            // 1 ,2, 3, 4 if u want to delete position 2.
+            // then recursively go till that position and u return head.next. 3,4
+            // U will return that previous call stack there head will be 1,2,3,4
+            // as u will be doing head.next then it will be 1,3,4. deleted position2
             if (position == 1){ return head.next; }
             head.next = deleteANodeAtGivenPositionRecursive(head.next, position-1);
             return head;
