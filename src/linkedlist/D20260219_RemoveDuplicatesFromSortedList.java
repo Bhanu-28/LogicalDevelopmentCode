@@ -16,12 +16,41 @@ public class D20260219_RemoveDuplicatesFromSortedList {
 
         linkedList.removeDuplicatesFromSortedList(linkedList.head);
 
+
+        LinkedList linkedList1 = new LinkedList();
+
+        linkedList1.append(10);
+        linkedList1.append(20);
+        linkedList1.append(20);
+        linkedList1.append(30);
+        linkedList1.append(30);
+        linkedList1.append(30);
+
+
+        linkedList1.removeDuplicates(linkedList1.head);
+
     }
 
 
 
     static class LinkedList{
         private Node head;
+
+
+        Node removeDuplicates(Node head){
+            Node curr = head;
+
+            while(curr!=null && curr.next!= null){
+                if(curr.data == curr.next.data){
+                    curr.next = curr.next.next;
+                }
+                else{
+                    curr = curr.next;
+                }
+            }
+
+            return head;
+        }
 
         /*
 
