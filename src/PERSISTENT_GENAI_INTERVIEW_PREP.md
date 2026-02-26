@@ -1,8 +1,6 @@
 # 🎯 Persistent Systems — JD-Targeted Interview Prep
 
-> **Interview:** Saturday, Feb 28, 2026 | 9:00 AM – 4:00 PM
-> **Venue:** Persistent Systems, Aryabhata-Pingala, Erandawana, Pune
-> **Contact:** deeksha_shrivastava1@persistent.com | 9131994655
+
 
 ---
 
