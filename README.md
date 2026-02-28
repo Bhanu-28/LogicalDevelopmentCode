@@ -105,4 +105,4 @@ Files follow the format: `DYYYYMMDD_ProblemName.java`
 - **YYYYMMDD** - Date the problem was started
 - **ProblemName** - Descriptive name of the problem
 
-Example: `D20250807_TwoSum.java` = Two Sum problem started on August 7, 2025
+Example: `D20250807_TwoSum.java` = Two Sum problem started on August 7, 2025.
