@@ -1,3 +1,5 @@
+package leetcode.contest;
+
 import java.util.*;
 
 public class FruitBowl {
