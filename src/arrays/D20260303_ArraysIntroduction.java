@@ -1,5 +1,9 @@
 package arrays;
 
+import java.util.Arrays;
+import java.util.NoSuchElementException;
+
+import javax.lang.model.element.VariableElement;
 
 public class D20260303_ArraysIntroduction {
 	
@@ -29,10 +33,12 @@ public class D20260303_ArraysIntroduction {
 		
 		
 		
+		System.out.println("-----------------------");
+		System.out.println("-----Insertion---------");
 		
 		System.out.print("First Name : ");
 
-		char firstName[] = {'b','h','a','n','u'};
+		char firstName[] = {'B','h','a','n','u'};
 		
 		for(char elem : firstName) {
 			System.out.print(elem+" ");
@@ -76,9 +82,77 @@ public class D20260303_ArraysIntroduction {
 		
 		char[] newFirstName = insertAtGivenPosition(firstName,'G',0);
 		
-		System.out.println(insertAtGivenPosition(newFirstName,'.',1));
-
+		char[] newFirstName1 = insertAtGivenPosition(newFirstName,'.',1);
 		
+		
+		char[] newFirstName2 = insertAtGivenPosition(newFirstName1,' ',2);
+		
+		System.out.println(newFirstName2);
+		
+		System.out.println("-----------------------");
+		
+		
+		System.out.println("-----------------------");
+		
+		System.out.println("-----Deletion-------");
+		
+		System.out.println("Deleting char in first name");
+		
+		
+		System.out.println("Length of char array Before deletion : "+newFirstName2.length);
+		System.out.println(newFirstName2);
+		
+		//checking if element exists or not.
+		
+		int lengthOfFirstName = newFirstName2.length;
+		char elementToFind = ' ';
+		int indexToDelete = -1;
+		
+		
+		for(int i = 0; i < lengthOfFirstName; i ++ ) {
+			
+			if(newFirstName2[i] == elementToFind) {
+				indexToDelete = i;
+				System.out.println("Found element at index : "+indexToDelete);
+				break;
+			}
+		}
+		
+		if(indexToDelete == -1) {
+			throw new NoSuchElementException("Element "+elementToFind + " Not Found");
+		}
+		
+		
+		for ( int i = indexToDelete+1; i < lengthOfFirstName; i ++) {
+			newFirstName2[i-1] = newFirstName2[i];
+		}
+		
+		lengthOfFirstName = lengthOfFirstName - 1;
+		
+		System.out.println("Length of char array after deletion : "+lengthOfFirstName);
+		System.out.println(newFirstName2);
+		
+		/*
+		 * 
+		 * Memory: Arrays.copyOf allocates a brand-new memory block of the specified length.
+		   Reference: The variable newFirstName2 stops pointing to the old array (8 slots) and starts pointing to the new one (7 slots).
+		   Garbage Collection: The old array is eventually deleted by Java since nothing is using it anymore.
+		 */
+		newFirstName2 = Arrays.copyOf(newFirstName2, lengthOfFirstName);
+		
+		System.out.println(newFirstName2);
+		
+		
+		// Manual approach
+		
+		char[] tempArray = new char[lengthOfFirstName];
+		for (int i = 0; i < lengthOfFirstName; i++) {
+		    tempArray[i] = newFirstName2[i];
+		}
+		newFirstName2 = tempArray; 
+		
+		
+		System.out.println(newFirstName2);
 		
 		
 	}
