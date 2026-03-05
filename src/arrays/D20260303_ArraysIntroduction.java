@@ -3,7 +3,6 @@ package arrays;
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
-import javax.lang.model.element.VariableElement;
 
 public class D20260303_ArraysIntroduction {
 	
@@ -105,13 +104,13 @@ public class D20260303_ArraysIntroduction {
 		//checking if element exists or not.
 		
 		int lengthOfFirstName = newFirstName2.length;
-		char elementToFind = ' ';
+		char elementToDelete = 'z';
 		int indexToDelete = -1;
 		
 		
 		for(int i = 0; i < lengthOfFirstName; i ++ ) {
 			
-			if(newFirstName2[i] == elementToFind) {
+			if(newFirstName2[i] == elementToDelete) {
 				indexToDelete = i;
 				System.out.println("Found element at index : "+indexToDelete);
 				break;
@@ -119,7 +118,7 @@ public class D20260303_ArraysIntroduction {
 		}
 		
 		if(indexToDelete == -1) {
-			throw new NoSuchElementException("Element "+elementToFind + " Not Found");
+			throw new NoSuchElementException("Element "+elementToDelete + " Not Found");
 		}
 		
 		
