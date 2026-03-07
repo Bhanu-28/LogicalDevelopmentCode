@@ -1,9 +1,7 @@
 package arrays;
 
 
-import java.io.*;
-
-public class D20260303_ArraysRotation {
+public class D20260305_ArraysRotation {
 
 static int[] RotateArray(int[] arr,int positionToRotate , int length) {
 
