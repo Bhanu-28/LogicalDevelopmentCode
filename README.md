@@ -6,6 +6,7 @@ A personal repository documenting my journey of practicing Data Structures and A
 
 ```
 src/
+├── arrays/              # Array problems and implementations
 ├── linkedlist/          # Linked List problems and implementations
 ├── searching/           # Binary Search and related problems
 ├── stream/              # Java Stream API practice
@@ -16,7 +17,17 @@ src/
 
 ---
 
-## 🔗 Linked List Practice Tracker
+## � Arrays Practice Tracker
+
+| #  | Date       | Problem                             | Difficulty | Status | View                                                                 |
+|----|------------|-------------------------------------|------------|--------|----------------------------------------------------------------------|
+| 1  | 2026-03-03 | Arrays Introduction (Insert/Delete) | Easy       | ✅ | [View](./src/arrays/D20260303_ArraysIntroduction.java)               |
+| 2  | 2026-03-05 | Array Rotation (Temp Array)         | Medium     | ✅ | [View](./src/arrays/D20260305_ArraysRotation.java)                   |
+| 3  | 2026-03-06 | Array Rotation (Constant Space)     | Medium     | ✅ | [View](./src/arrays/D20260306_ArraysRotation_ConstantSpace.java)     |
+
+---
+
+## �🔗 Linked List Practice Tracker
 
 | #  | Date       | Problem                             | Difficulty | Status | View                                                                 |
 |----|------------|-------------------------------------|------------|--------|----------------------------------------------------------------------|
@@ -79,11 +90,12 @@ src/
 
 | Category | Total  | Completed |
 |----------|--------|-----------|
+| Arrays | 3      | 3 ✅       |
 | Linked List | 14     | 14 ✅      |
 | Searching | 6      | 6 ✅       |
 | Stream | 1      | 1 ✅       |
 | Two Pointers | 10     | 10 ✅      |
-| **Total** | **31** | **31**    |
+| **Total** | **34** | **34**    |
 
 ---
 

@@ -1,9 +1,7 @@
 package arrays;
 
 
-import java.io.*;
-
-public class D20260303_ArraysRotation {
+public class D20260305_ArraysRotation {
 
 static int[] RotateArray(int[] arr,int positionToRotate , int length) {
 
@@ -14,7 +12,7 @@ static int[] RotateArray(int[] arr,int positionToRotate , int length) {
 	int k = 0;
 
 	// store the elements after position to rotate in the temp array.
-	for (int i = positionToRotate - 1; i < length - 1; i++) {
+	for (int i = positionToRotate ; i < length; i++) {
 		tempArray[k] = arr[i];
 		k++;
 	}
@@ -57,9 +55,47 @@ static void PrintTheArray(int arr[], int n)
 
 		// Function calling
 		RotateArray(arr, d, N);
+
+		leftRotate(arr, N, d);
+
 		PrintTheArray(arr, N);
 	}
+
+
+	static int[] leftRotate(int arr[], int n , int d){
+
+		// create an array of size d.
+
+		int [] tempArray = new int[d];
+
+		// now copy the elements u want to left rotate to the temp array.
+		for(int i = 0 ; i < d ; i++){
+			tempArray[i] = arr[i];
+		}
+
+		// Now left shift the elements.
+
+		for(int i = d ; i < n ; i++){
+			//Move the element from dth position i -d positions.
+			arr[i-d] = arr[i];
+		}
+
+		// Now arrange the elements of temp array to this array.
+
+		for(int i = 0 ; i < d ; i++){
+			arr[n-d + i] = tempArray[i];
+		}
+
+
+		return arr;
+
+	}
 }
+
+
+
+
+
 
 //// Function to rotate array
 //static void Rotate(int arr[], int d, int n)
