@@ -1,4 +1,4 @@
-# 📚 DSA Practice Repository
+# 📚 DSA Practice Repository.
 
 A personal repository documenting my journey of practicing Data Structures and Algorithms problems. Files are organized by topic and prefixed with the date they were started (format: `DYYYYMMDD_`) for easy chronological tracking.
 
