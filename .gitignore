@@ -39,3 +39,5 @@ DSA.iml
 *.iml
 /LogicalDevelopmentCode.userlibraries
 /LogicalDevelopmentCode.eml
+
+*.pyc/
