@@ -13,7 +13,7 @@ public class D20260307_ArraysRotationJugglingAlgo {
 
 		int setsToDivide = gcd(positionToRotate,length);
 
-
+		System.out.println("setsToDivide :"+setsToDivide);
 
 		return arr;
 
