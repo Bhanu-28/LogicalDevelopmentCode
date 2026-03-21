@@ -3,7 +3,7 @@ package arrays;
 
 public class D20260305_ArraysRotation {
 
-static int[] RotateArray(int[] arr,int positionToRotate , int length) {
+static int[] rotateArray(int[] arr, int positionToRotate , int length) {
 
 	// create a new temp array with length given.
 
@@ -54,7 +54,7 @@ static void PrintTheArray(int arr[], int n)
 		int d = 2;
 
 		// Function calling
-		RotateArray(arr, d, N);
+		rotateArray(arr, d, N);
 
 		leftRotate(arr, N, d);
 
