@@ -4,8 +4,15 @@ public class GreedyAlgorithm {
 
     public static void main(String[] args) {
         System.out.println(solve("bhanupradeep"));
+        System.out.println(solve("eccbbbbdec"));
     }
 
+
+    /*
+
+    end = farthest last occurrence
+    cut when i == end
+     */
     static int solve(String s) {
         int[] last = new int[26];
 
