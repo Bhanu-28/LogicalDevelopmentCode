@@ -76,7 +76,7 @@ public class D20260303_ArraysIntroduction {
 		
 		System.out.println("--------------------------------------");
 		
-		System.out.println("Inserting an element at position Given Position ");
+		System.out.println("Inserting an element at  Given Position ");
 		
 		
 		char[] newFirstName = insertAtGivenPosition(firstName,'G',0);
@@ -178,8 +178,8 @@ public class D20260303_ArraysIntroduction {
 			charArrayNew[i] = charArray[i];
 		}
 		
-		
-		for(int i = length - 1; i >= position; i -- ) {
+		// right shift the elements to insert the element at the position Given.
+		for(int i = length - 1; i >= position; i --) {
 			charArrayNew[i+1] = charArrayNew[i];
 		}
 		
