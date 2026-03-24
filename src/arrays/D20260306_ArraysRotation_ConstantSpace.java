@@ -12,6 +12,9 @@ public class D20260306_ArraysRotation_ConstantSpace {
 	and keep arr[length-1] = temp
 
 	keep the above logic in while loop for multiple rotations till the position to rotate.
+
+	Time Complexity: O(N * d)
+	Auxiliary Space: O(1)
 	 */
 
 	static int[] rotateArray(int[] arr, int positionToRotate , int length) {
