@@ -1,7 +1,7 @@
 package arrays;
 
 
-public class D20260307_ArraysRotationJugglingAlgo {
+public class D20260321_ArraysRotationJugglingAlgo {
 
 
 	/*
