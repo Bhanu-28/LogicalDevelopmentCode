@@ -3,6 +3,17 @@ package arrays;
 
 public class D20260306_ArraysRotation_ConstantSpace {
 
+
+	/*
+
+	Store the first element in some temporary variable.
+	Now iterate and do arr[i] = arr[i+1]
+
+	and keep arr[length-1] = temp
+
+	keep the above logic in while loop for multiple rotations till the position to rotate.
+	 */
+
 	static int[] rotateArray(int[] arr, int positionToRotate , int length) {
 
 

@@ -11,9 +11,38 @@ public class D20260307_ArraysRotationJugglingAlgo {
 
 		int i , j , k , temp;
 
-		int setsToDivide = gcd(positionToRotate,length);
+		int g_c_d = gcd(positionToRotate,length); // length 15
 
-		System.out.println("setsToDivide :"+setsToDivide);
+
+		for(i =0 ; i < g_c_d; i++){
+
+			// store the ith element in temp variable.
+			temp = arr[i];
+
+			// to keep track of i storing it in j
+			j = i; // 0 // ---> keep going 5 sets while loop and array will get changed.
+
+			//rotation logic.
+			while(true){
+
+				k = j + positionToRotate; //  0+10= 10 // 10 + 10 = 20 // 5 + 10 = 15
+				if(k>=length){
+					k = k - length; // -- // 20 -15 = 5 // 15-15 = 0
+				}
+				if(k==i){
+					break; //-- // -- // break.
+				}
+
+				arr[j] = arr[k]; // 10, 5,
+				j = k; // 10, 5 ,
+			}
+
+			arr[j] = temp; // arr[5] = 0 //
+
+		}
+
+		System.out.println("setsToDivide :"+g_c_d);
+		PrintTheArray(arr, length);
 
 		return arr;
 
@@ -48,7 +77,15 @@ static void PrintTheArray(int arr[], int n)
 
 		// Function calling
 		leftRotateArray(arr, d, N);
-		PrintTheArray(arr, N);
+
+
+		int arr1[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8 , 9 , 10 , 11 , 12, 13 , 14};
+		int N1 = arr1.length;
+		int d1= 10;
+
+
+		leftRotateArray(arr1,d1, N1);
+
 	}
 }
 
