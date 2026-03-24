@@ -3,7 +3,7 @@ package arrays;
 
 public class D20260306_ArraysRotation_ConstantSpace {
 
-	static int[] RotateArray(int[] arr,int positionToRotate , int length) {
+	static int[] rotateArray(int[] arr, int positionToRotate , int length) {
 
 
 		// Idea is to rotate one by one element.
@@ -45,7 +45,7 @@ public class D20260306_ArraysRotation_ConstantSpace {
 			int d = 2;
 
 			// Function calling
-			int[] rotatedArray = RotateArray(arr, d, N);
+			int[] rotatedArray = rotateArray(arr, d, N);
 
 			printTheArray(rotatedArray,N);
 		}

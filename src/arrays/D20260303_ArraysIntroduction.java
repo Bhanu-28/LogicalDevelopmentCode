@@ -37,7 +37,7 @@ public class D20260303_ArraysIntroduction {
 		
 		System.out.print("First Name : ");
 
-		char firstName[] = {'B','h','a','n','u'};
+		char[] firstName = {'B','h','a','n','u'};
 		
 		for(char elem : firstName) {
 			System.out.print(elem+" ");
@@ -57,6 +57,8 @@ public class D20260303_ArraysIntroduction {
 		
 		char[] lastName = new char[7];
 		String lastNameStr = "Pradee";
+
+		System.out.println("Copying the elements from one array to other for insertion of New element");
 		
 		for(int i = 0 ; i < lastNameStr.length() ; i++) { 
 			lastName[i] = lastNameStr.charAt(i);
@@ -104,7 +106,7 @@ public class D20260303_ArraysIntroduction {
 		//checking if element exists or not.
 		
 		int lengthOfFirstName = newFirstName2.length;
-		char elementToDelete = 'z';
+		char elementToDelete = ' ';
 		int indexToDelete = -1;
 		
 		
@@ -156,6 +158,10 @@ public class D20260303_ArraysIntroduction {
 		
 	}
 
+	/*
+		Easy logic Just insert the element by index of length -1.
+	 */
+
 	private static char[] insertAtEnd(char[] lastName, char elemToInsert) {
 		int length = lastName.length;
 		System.out.println("length of char array : "+length);
@@ -173,7 +179,8 @@ public class D20260303_ArraysIntroduction {
 		int length = charArray.length;
 		
 		char[] charArrayNew = new char[length+1];
-		
+
+		// copy all the elements from one array to other.
 		for(int i = 0 ; i < length; i ++) {
 			charArrayNew[i] = charArray[i];
 		}
