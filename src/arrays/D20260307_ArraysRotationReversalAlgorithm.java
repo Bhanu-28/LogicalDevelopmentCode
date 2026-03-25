@@ -20,7 +20,18 @@ public class D20260307_ArraysRotationReversalAlgorithm{
 
 		rotateUsingReverseAlgo(arr,N, positionToRotate);
 
-		printTheArray(arr,N);
+
+		int[] arr1 = {1,2,3,4};
+
+		int N1 = arr1.length;
+
+		int positionToRotate1 = 1;
+
+
+		rotateUsingReverseAlgo(arr1,N1, positionToRotate1);
+
+
+
 
 	}
 
@@ -37,15 +48,24 @@ public class D20260307_ArraysRotationReversalAlgorithm{
 
 		reverse(arr, 0 , length -1);
 
+		printTheArray(arr,length);
+
 	}
 
 	private static void reverse(int[] arr , int low , int high){
 
 		while(low<high){
+
+			// store the low in temp variable.
 			int temp = arr[low];
+
+			// now store the high in low
 			arr[low] = arr[high];
+
+			// store the value of temp in high
 			arr[high] = temp;
 
+			// increment low and decrement high.
 			low++;
 			high--;
 		}

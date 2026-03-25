@@ -3,6 +3,15 @@ package arrays;
 
 public class D20260305_ArraysRotation {
 
+
+		/*
+
+		Create a temp array of same size of arr.
+		Now iterate from positionRotate to end and place them in the array.
+		Now store the elements to rotate in the end of temparray.
+		Copy the elements back to arr
+		return that int arr
+		 */
 static int[] rotateArray(int[] arr, int positionToRotate , int length) {
 
 	// create a new temp array with length given.
@@ -48,6 +57,7 @@ static void PrintTheArray(int arr[], int n)
 	}
 	System.out.println();
 }
+
 	public static void main (String[] args) {
 		int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
 		int N = arr.length;
@@ -61,7 +71,22 @@ static void PrintTheArray(int arr[], int n)
 		PrintTheArray(arr, N);
 	}
 
+/*
 
+	Now left shift the elements.
+
+
+	Iterate from D to n and move the elements
+
+	//Move the element from dth position i -d positions.
+	arr[i-d] = arr[i];
+
+
+
+	// Iterate from 0 to d position and place the values after d
+			arr[n-d + i] = tempArray[i];
+s
+ */
 	static int[] leftRotate(int arr[], int n , int d){
 
 		// create an array of size d.
