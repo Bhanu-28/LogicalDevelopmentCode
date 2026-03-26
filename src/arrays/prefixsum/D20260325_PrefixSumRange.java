@@ -29,9 +29,11 @@ public class D20260325_PrefixSumRange {
         System.out.println();
     }
 
+
     /*
     This method for calculating length between i and j
      */
+
     public static int[] calculatePrefixSumArrayRange(int[] prefixSum,int[][] ops){
 
         int length = prefixSum.length;
