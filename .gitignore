@@ -37,6 +37,7 @@ bin/
 .idea/vcs.xml
 DSA.iml
 *.iml
+*.javac/
 /LogicalDevelopmentCode.userlibraries
 /LogicalDevelopmentCode.eml
 
