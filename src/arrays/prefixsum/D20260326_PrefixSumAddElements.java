@@ -33,7 +33,10 @@ public class D20260326_PrefixSumAddElements {
         System.out.println();
     }
 
+/*
 
+calculate prefix array sum
+ */
     public static int calculatePrefixSumArrayMax(int[] prefixSum, int[][] ops){
 
         int length = prefixSum.length;
