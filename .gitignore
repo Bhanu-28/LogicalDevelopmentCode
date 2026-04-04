@@ -8,6 +8,7 @@ out/
 /.idea
 ### Eclipse ###
 .apt_generated
+*.class
 .classpath
 .factorypath
 .project
@@ -42,4 +43,6 @@ DSA.iml
 /LogicalDevelopmentCode.eml
 
 *.pyc/
+target/
 course-details.arrays-search-sort-progress/
+
