@@ -38,10 +38,17 @@ public class D20260325_PrefixSumRange {
     public static int[] calculatePrefixSumArrayRange(int[] prefixSum,int[][] ops){
 
         int length = prefixSum.length;
-
+        
+        System.out.print("Prefix sum array : ");
+        System.out.print(prefixSum[0]+" ");
         for(int i = 1; i < length; i++){
             prefixSum[i] = prefixSum[i-1] + prefixSum[i];
+            System.out.print(prefixSum[i]+" ");
+            
         }
+        System.out.println();
+        
+        
         int[] sumArray = new int[ops.length];
         int sumInRange = 0;
         int counter = 0;
