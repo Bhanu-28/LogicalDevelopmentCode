@@ -59,6 +59,7 @@ public class HpsAssesmentQuestion2 {
 			}
 			
 			
+			
 		}
 		
 		
@@ -82,7 +83,12 @@ public class HpsAssesmentQuestion2 {
 		String sortMiddleCharacters = sortMiddleCharacters(scrambled);
 		String scrambledKey = scrambled.charAt(0)+ ""+scrambled.charAt(scrambled.length()-1)+ ""+ sortMiddleCharacters;
 		
-		return cache.get(scrambledKey);
+		
+		String correctWord = cache.get(scrambledKey);
+		if(correctWord!=null) {
+			return correctWord;
+		}
+		return scrambled;
 	}
 	
 	private static String searchMatchingWordInDictionary(String scrambled, List<String> dictionary) {

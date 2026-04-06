@@ -1,4 +1,4 @@
-package interview.experience;
+package interview.experience.hps;
 
 import static org.junit.Assert.assertEquals;
 
