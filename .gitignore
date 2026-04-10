@@ -43,6 +43,7 @@ DSA.iml
 /LogicalDevelopmentCode.eml
 
 .env/
+*.env
 *.pyc/
 target/
 course-details.arrays-search-sort-progress/
