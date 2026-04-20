@@ -1,6 +1,5 @@
 package linkedlist;
 
-import java.util.Scanner;
 
 public class D20260101_DeleteFirstLastNodeLinkedList {
 

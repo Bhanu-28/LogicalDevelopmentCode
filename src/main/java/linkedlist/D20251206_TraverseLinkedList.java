@@ -8,8 +8,8 @@ public class D20251206_TraverseLinkedList{
         Node next;
 
         Node(int x){
-            data = x;
-            next = null;
+            this.data = x;
+            this.next = null;
         }
     }
     public static void main(String[] args){
