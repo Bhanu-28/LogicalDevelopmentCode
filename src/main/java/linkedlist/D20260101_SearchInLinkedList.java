@@ -39,6 +39,8 @@ public class D20260101_SearchInLinkedList {
         } else {
             System.out.printf("Element %d found at %d sposition", elementToSearch, location);
         }
+        
+        sc.close();
 
     }
 
