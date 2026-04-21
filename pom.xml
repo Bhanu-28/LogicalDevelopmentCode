@@ -5,7 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>think wise</name>
   <description>	</description>
-  
+  <properties>
+    <java.version>24</java.version>
+</properties>
   <dependencies> 
   	<dependency>
 	  <groupId>junit</groupId>
