@@ -41,7 +41,7 @@ public class D20261804_SecondLargestElement {
 	    /* Driver program to test above function */
 	    public static void main(String[] args)
 	    {
-	        int arr[] = { 12, 35, 1, 10, 34, 1 };
+	        int arr[] = { 12, 35, 1, 10, 34, 1 ,99};
 	        int n = arr.length;
 	        print2largest(arr, n);
 	    }
