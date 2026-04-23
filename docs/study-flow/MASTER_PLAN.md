@@ -4,7 +4,7 @@
 
 ---
 
-## ⏱️ Daily Time Budget (Notice Period)
+## ⏱️ Daily Time Budget
 
 | Time | Activity |
 |------|----------|
