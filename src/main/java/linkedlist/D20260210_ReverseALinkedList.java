@@ -42,7 +42,9 @@ public class D20260210_ReverseALinkedList {
     static class LinkedList{
             private Node head;
 
-
+            /*
+             prev we hold reversed linked list.
+             */
             void reverseALinkedList(){
 
                 // Head 1, 2, 3, 4
@@ -83,8 +85,33 @@ public class D20260210_ReverseALinkedList {
                 printList();
 
             }
-
+            
+	       /*
+	       	 
+	       	 Basically u reverse everything after me and I will add in the tail.
+	       	 
+	       	 for example 1,2,3,4
+	       	 recursively we will return 4.
+	       	 next rest_head will hold the head of reversed linked list.
+	       	 
+	       	 next we will return 4 --> 3
+	       	 
+	       	 here now existing head will become 2-->3-->null as we have done head.next =null;
+	       	 
+	       	 now after modification it becomes 3 --> 2 --> null return rest_head which becomes 4 --> 3 --> 2 --> null
+	       	 
+	       	 Note : 4 is connected to 3 at first 3 is connected to nothing later 3 is connected to 2 now when u return 
+	       	 
+	       	 rest_head it becomes 4-->3-->2--> null similarly 1 as well
+	       	 
+	       	 
+	       	 which reverse the whole linked list recursively.
+	       	 
+	       	 
+	       */
             Node reverseALinkedListRecursive(Node head){
+            	
+            	
 
                 if(head == null | head.next == null){
                     return head;

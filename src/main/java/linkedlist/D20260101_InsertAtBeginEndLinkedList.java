@@ -40,6 +40,9 @@ public class D20260101_InsertAtBeginEndLinkedList {
         Node endNode = insertAtEnd(newNode, elementToInsert2);
 
         printNode(endNode);
+        
+        sc1.close();
+        sc2.close();
 
     }
 
