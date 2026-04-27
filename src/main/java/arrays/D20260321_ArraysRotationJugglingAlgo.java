@@ -55,25 +55,25 @@ public class D20260321_ArraysRotationJugglingAlgo {
 
 	}
 
-static int gcd(int a , int b ){
+		static int gcd(int a , int b ){
+		
+			if(b == 0){
+				return a;
+			}
+			else{
+				return gcd(b,a%b);
+			}
+		}
 
-	if(b == 0){
-		return a;
-	}
-	else{
-		return gcd(b,a%b);
-	}
-}
 
-
-// Function to print elements of array
-static void PrintTheArray(int arr[], int n)
-{
-	for (int i = 0; i < n; i++) {
-		System.out.print(arr[i]+" ");
+	// Function to print elements of array
+	static void PrintTheArray(int arr[], int n)
+	{
+		for (int i = 0; i < n; i++) {
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
 	}
-	System.out.println();
-}
 
 
 	public static void main (String[] args) {

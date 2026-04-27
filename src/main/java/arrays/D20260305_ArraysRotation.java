@@ -11,6 +11,10 @@ public class D20260305_ArraysRotation {
 		Now store the elements to rotate in the end of temparray.
 		Copy the elements back to arr
 		return that int arr
+		
+		
+		Time complexity : (n-d) + (d) + n = 2n --> n
+		Space COmplexity : O(n)
 		 */
 static int[] rotateArray(int[] arr, int positionToRotate , int length) {
 
@@ -85,6 +89,10 @@ static void PrintTheArray(int arr[], int n)
 
 	// Iterate from 0 to d position and place the values after d
 			arr[n-d + i] = tempArray[i];
+			
+			
+		Time complexity : (d) + (n-d) + d = n + d --> O(n)
+		Space Complexity : O(d) Less memory
 s
  */
 	static int[] leftRotate(int arr[], int n , int d){
@@ -117,38 +125,3 @@ s
 	}
 }
 
-
-
-
-
-
-//// Function to rotate array
-//static void Rotate(int arr[], int d, int n)
-//{
-//	// Storing rotated version of array
-//	int temp[] = new int[n];
-//
-//	// Keeping track of the current index
-//	// of temp[]
-//	int k = 0;
-//
-//	// Storing the n - d elements of
-//	// array arr[] to the front of temp[]
-//	for (int i = d; i < n; i++) {
-//		temp[k] = arr[i];
-//		k++;
-//	}
-//
-//	// Storing the first d elements of array arr[]
-//	// into temp
-//	for (int i = 0; i < d; i++) {
-//		temp[k] = arr[i];
-//		k++;
-//	}
-//
-//	// Copying the elements of temp[] in arr[]
-//	// to get the final rotated array
-//	for (int i = 0; i < n; i++) {
-//		arr[i] = temp[i];
-//	}
-//}
