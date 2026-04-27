@@ -12,8 +12,23 @@ public class D20260306_ArraysRotation_ConstantSpace {
 	and keep arr[length-1] = temp
 
 	keep the above logic in while loop for multiple rotations till the position to rotate.
+	
+	
+		Case 1: Small rotation
+			d = 2, n = 100000
+			→ O(2 × n) ≈ O(n)
+			
+			 Fine
+	
+	Case 2: Large rotation
+			d = n
+			→ O(n × n) = O(n²)
+			
+			 Very slow
+	
+	Good for small d, bad for large d
 
-	Time Complexity: O(N * d)
+	Time Complexity: (n - 1) ≈ n times * d --> O(N * d)
 	Auxiliary Space: O(1)
 	 */
 
@@ -23,12 +38,12 @@ public class D20260306_ArraysRotation_ConstantSpace {
 		// Idea is to rotate one by one element.
 
 		// To keep track of how many elements to move further.
-		int p = 1;
+		int counter = 1;
 
-		while(p<=positionToRotate){
+		while(counter<=positionToRotate){
 
 			//store the first element in some temporary variable.
-			int last = arr[0];
+			int tempElement = arr[0];
 			for(int i = 0 ; i < length -1; i++){
 
 				arr[i] = arr[i+1];
@@ -36,8 +51,8 @@ public class D20260306_ArraysRotation_ConstantSpace {
 
 			}
 
-			arr[length-1] = last;
-			p++;
+			arr[length-1] = tempElement;
+			counter++;
 		}
 
 		return arr;

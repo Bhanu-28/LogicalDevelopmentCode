@@ -1,6 +1,14 @@
 package arrays;
 
-
+/*
+ 
+		 O(d) + O(n - d) + O(n)
+		 
+		 = O(n + n)
+		= O(2n) --> = O(n) Time Complexity
+		
+		Space Complexity = O(1)
+ */
 public class D20260307_ArraysRotationReversalAlgorithm{
 
 	public static void main(String[] args){
@@ -24,8 +32,14 @@ public class D20260307_ArraysRotationReversalAlgorithm{
 		int[] arr1 = {1,2,3,4};
 
 		int N1 = arr1.length;
+		
+		System.out.println("Before Rotation");
+
+		printTheArray(arr1,N1);
 
 		int positionToRotate1 = 1;
+		
+		System.out.println("After Rotation");
 
 
 		rotateUsingReverseAlgo(arr1,N1, positionToRotate1);
