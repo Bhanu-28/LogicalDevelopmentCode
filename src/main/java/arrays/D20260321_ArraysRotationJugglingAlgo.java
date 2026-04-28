@@ -1,6 +1,9 @@
 package arrays;
 
 
+/*
+Explanation : https://www.notion.so/Juggling-algorithm-33afdd05003e800aae7dcffe2e58103c
+*/
 public class D20260321_ArraysRotationJugglingAlgo {
 
 
