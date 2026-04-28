@@ -1,6 +1,9 @@
 package arrays;
 
 
+/*
+Explanation : https://www.notion.so/Juggling-algorithm-33afdd05003e800aae7dcffe2e58103c
+*/
 public class D20260321_ArraysRotationJugglingAlgo {
 
 
@@ -10,6 +13,9 @@ public class D20260321_ArraysRotationJugglingAlgo {
 	Space complexity O(1)
 	 */
 	static int[] leftRotateArray(int[] arr,int positionToRotate , int length) {
+		
+		
+		System.out.println("length : "+length);
 
 
 		// To handle case where positionToRotate is greater than length of array.
@@ -87,7 +93,7 @@ public class D20260321_ArraysRotationJugglingAlgo {
 
 		int arr1[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8 , 9 , 10 , 11 , 12, 13 , 14};
 		int N1 = arr1.length;
-		int d1= 10;
+		int d1= 5;
 
 
 		leftRotateArray(arr1,d1, N1);
