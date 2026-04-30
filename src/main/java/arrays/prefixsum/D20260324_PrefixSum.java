@@ -20,6 +20,17 @@ public class D20260324_PrefixSum {
 
         System.out.println("prefix sum array");
         printArray(arr);
+
+
+        int[] arr2 = {10,20,50,40,0,10};
+        System.out.println("Initial Array");
+        printArray(arr2);
+
+
+        calculatePrefixSumArray(arr2);
+
+        System.out.println("prefix sum array");
+        printArray(arr2);
     }
 
     public static void printArray(int[] arr){
