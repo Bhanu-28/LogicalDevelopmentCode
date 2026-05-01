@@ -1,224 +1,185 @@
 # 🎯 BHANU'S MASTER PLAN — Single Source of Truth
-> **Last Updated:** May 3, 2026
-> **Reset from May 4. Sleep early. Wake early. Lock in.**
+> **Last Updated:** May 4, 2026
+> **Status:** Notice Period → Joining new company soon
+> **Start:** May 5 (Tuesday) — locked in
 
 ---
 
-## ⏱️ Daily Schedule — Weekdays (WFH + 2 days office)
+## ⏱️ Daily Schedule (May 5 onwards)
 
 | Time | Block | Activity |
 |------|-------|----------|
-| **4:30 – 7:30 AM** | **📚 DSA Morning Block** | **3 hrs — GFG + LeetCode. Best focus window.** |
-| 7:30 – 9:00 AM | 🏋️ Gym | 1.5 hrs (if energy allows — skip on heavy days) |
-| 9:00 – 10:00 AM | 🍳 Breakfast + Ready | Fixed |
-| 10:30 AM | 💼 Start Office / WFH | Office 2 days/week only |
-| **10:30 AM – 1:30 PM** | **💼 Office Block 1** | **3 hrs focused work** |
-| 1:30 – 2:30 PM | 🍽️ Lunch + 1 hr DSA | **GFG problems during/after lunch** |
-| **2:30 – 5:30 PM** | **💼 Office Block 2** | **2-3 hrs work + calls** |
-| 5:30 – 6:00 PM | ☕ Break / wind down |  |
-| **6:00 – 7:00 PM** | **☕ Java Course** | **1 hr — Madan Reddy (expires Jun 1!)** |
-| **7:00 – 8:00 PM** | **🤖 AI Course** | **1 hr — Coursera Agentic AI** |
-| 8:00 – 9:00 PM | 🍽️ Dinner | Fixed (1 hr) |
-| **9:00 – 10:00 PM** | **🏗️ Project** | **1 hr — build, commit, deploy** |
-| **10:00 PM** | 😴 **Sleep** | **Non-negotiable. 6.5 hrs → wake 4:30** |
-
-**Total study: 4 hrs DSA + 1 hr Java + 1 hr AI + 1 hr Project = ~7 hrs/day**
-
----
-
-## ⏱️ Today (Sunday May 4) — 6 hrs Plan
-
-| Block | Time | Task |
-|-------|------|------|
-| Morning | 4:30–7:30 AM | DSA: GFG Arrays — finish remaining videos + all problems (43%→100%) |
-| Lunch | 1:00–2:00 PM | DSA: Sorting articles (Bubble/Select/Insert) |
-| Evening | 6:00–7:00 PM | Java Course: Start Module 1 — Spring Boot basics |
-| Evening | 7:00–8:00 PM | AI Course: Coursera Agentic AI — Week 1 Intro |
-| Night | 9:00–10:00 PM | Project: Decide project idea + create GitHub repo + scaffold |
-
----
-
-## ⏱️ Weekend Schedule
-
-| Time | Block | Activity |
-|------|-------|----------|
-| **4:30 – 7:30 AM** | **📚 DSA Heavy** | **3 hrs + push hard on GFG topic** |
-| 7:30 – 9:00 AM | 🏋️ Gym | 1.5 hrs |
-| 9:00 – 10:00 AM | 🍳 Breakfast | Fixed |
-| **10:00 AM – 1:00 PM** | **🏗️ Project / Build** | **3 hrs — build features, deploy** |
-| 1:00 – 2:00 PM | 🍽️ Lunch | Fixed |
-| **2:00 – 4:00 PM** | **☕ Java Course + AI Course** | **1 hr each** |
-| **4:00 – 6:00 PM** | **⚔️ LeetCode Battle** | **5 timed problems (20 min each)** |
+| **4:30 – 5:30 AM** | **📚 DSA** | **1 hr — 1-2 problems, pattern-based. GFG or LeetCode.** |
+| **5:30 – 7:00 AM** | **☕ Java Course** | **1.5 hrs — Madan Reddy (expires Jun 1 — urgent)** |
+| 7:00 – 8:30 AM | 🏋️ Gym | Optional — skip if tired |
+| 8:30 – 9:15 AM | 🍳 Breakfast + Ready | Fixed |
+| **10:00 AM – 2:00 PM** | **💼 Office Block 1** | **4 hrs focused work** |
+| 2:00 – 2:45 PM | 🍽️ Lunch | Fixed |
+| 2:45 – 5:00 PM | 💼 Office Block 2 | Remaining work + calls |
+| **5:00 – 6:30 PM** | **🤖 AI Course** | **1.5 hrs — Coursera Agentic AI** |
+| **6:30 – 8:00 PM** | **🏗️ Project** | **1.5 hrs — build, push to GitHub** |
 | 8:00 – 9:00 PM | 🍽️ Dinner | Fixed |
-| **9:00 – 10:00 PM** | **📝 Weekly review** | **Update tracker + plan next week** |
-| **10:00 PM** | 😴 **Sleep** | |
+| **9:00 – 9:20 PM** | **🐦 Twitter Post** | **20 min — Day X/30 update** |
+| **10:00 PM** | 😴 **Sleep** | Non-negotiable |
+
+**Total productive:** 1 hr DSA + 1.5 hr Java + 4-5 hr office + 1.5 hr AI + 1.5 hr project = **~10 hrs**
 
 ---
 
-## 🛌 Off / Sick Day — 45 min minimum
-- [ ] 1 GFG article on current topic (15 min)
-- [ ] 1 LeetCode Easy on paper (20 min)
-- [ ] Fill checklist (10 min)
+## 🛌 Off-Day Minimum (sick / travel)
+- [ ] 1 LeetCode Easy (20 min)
+- [ ] 30 min Java Course video
+- [ ] Twitter post (even just 3 lines is fine)
 
 ---
 
-## 🏗️ THE ONE PROJECT — Build This End-to-End
+## 📚 DSA — 3-Month Pattern Plan (1 hr/day)
+> **Goal:** Strong on patterns, not course completion. 1-2 problems per day. Quality > quantity.
+> GFG CIP = reference material. Use it topic by topic as per weekly focus below.
 
-**Name:** Job Prep AI Assistant
-**Why:** Combines everything — Java backend + React frontend + RAG + Agent. Deployable. Resumé-worthy.
+### Month 1 — May (Notice Period)
+| Week | Pattern Focus | Daily Practice |
+|------|--------------|----------------|
+| May 5–11 | Arrays: prefix sum, frequency map, two pointers | 1 GFG problem + 1 LeetCode Easy |
+| May 12–18 | Sliding window (fixed + variable) | 1-2 LeetCode problems |
+| May 19–25 | LinkedList: reversal, slow-fast, merge | GFG LL + LeetCode |
+| May 26–31 | Hashing + Binary Search patterns | LeetCode Medium attempt |
 
-| Layer | Tech | Learn From |
-|-------|------|------------|
-| Backend REST API | Java + Spring Boot | Madan Reddy course |
-| AI / RAG | Python FastAPI + LangChain + FAISS | Coursera Agentic AI |
-| Agent | LangGraph | Coursera |
-| Frontend | React + Next.js (basic) | Harkirat (reference only — jump to what you need) |
-| DB | PostgreSQL / H2 | Madan Reddy |
-| Deploy | Docker + Render | Harkirat DevOps chapter |
+### Month 2 — June (New Job starts Jun 2)
+> Switch to **weekend-heavy** DSA (2-3 hrs Sat/Sun) + 1 problem weekdays
+| Week | Pattern Focus |
+|------|--------------|
+| Jun 1–7 | Stack (monotonic) + Queue (deque window) |
+| Jun 8–14 | Recursion: tree of calls, base cases |
+| Jun 15–21 | Tree: BFS, DFS, traversals |
+| Jun 22–30 | BST + Heap: top-k patterns |
 
-**4-week build plan:**
+### Month 3 — July
+| Week | Pattern Focus |
+|------|--------------|
+| Jul 1–7 | Graph: BFS, DFS, connected components |
+| Jul 8–14 | Greedy + Backtracking |
+| Jul 15–21 | DP: 1D + 2D patterns |
+| Jul 22–31 | Mixed mocks + weak topic repair |
 
-| Week | Project Goal |
-|------|-------------|
-| Week 1 (May 4–10) | Scaffold Spring Boot project + first REST endpoint working |
-| Week 2 (May 11–17) | RAG pipeline integrated (PDF upload → ask question) |
-| Week 3 (May 18–24) | LangGraph agent added + frontend skeleton (React) |
-| Week 4 (May 25–31) | Dockerize + Deploy + GitHub README + demo recording |
-
-**Jun 2 target:** Walk into new job with a deployed project link on your resume.
-
----
-
-## 📚 GFG Plan — May 4 to Jun 1 (DSA focus 4 hrs/day)
-
-### Video vs Article guide (don't watch everything)
-| Topic | Watch Videos? | Skip? |
-|-------|--------------|-------|
-| Arrays | Only Sliding Window + Prefix Sum (2 videos) | Skip rest |
-| Sorting | Only Merge + Quick + Heap Sort (3 videos) | Skip Bubble/Select/Insert |
-| Hashing | Only Collision + Open Addressing (2 videos) | Skip rest |
-| LinkedList | Only Recursion + Deletion (3 videos) | Skip basic insert/delete |
-| Recursion | 🔴 Watch ALL 14 videos | Nothing |
-| Searching | Just Binary Search video | Done in 30 min |
-| Stack/Queue | 1 video each | Rest articles |
-| Tree | 🔴 Watch ALL traversal videos | Nothing |
-| BST | Only Deletion + AVL | Skip search/insert |
-| Heap | Only Heapify + Build Heap | Skip intro |
-
-### Week 1 (May 4–10): Arrays + Sorting + Hashing
-| Day | Morning DSA (4:30–7:30 AM) | Lunch DSA (1–2 PM) |
-|-----|----------------------------|--------------------|
-| Sun May 4 | Arrays: remaining videos + all problems → **100% ✅** | Sorting: Bubble/Select/Insert articles |
-| Mon May 5 | Sorting: Merge Sort video + problems | Sorting: Quick Sort video |
-| Tue May 6 | Sorting: Heap Sort video + all problems + MCQs ✅ | Hashing: Collision video |
-| Wed May 7 | Hashing: Open Addressing video + articles + problems | Hashing: MCQs ✅ |
-| Thu May 8 | Algo Analysis: complete (75%→100%) | Java Libraries: Collections 30 min |
-| Fri May 9 | Revision: redo 3 hardest problems from week | Write Merge + Quick Sort on paper |
-| Sat May 10 | ⚔️ 8 LeetCode timed (Arrays + Sorting mix) | Hashing review |
-
-**✅ Week 1 Done:** Arrays + Sorting + Hashing 100%
+**Pattern cheat sheet to build over 3 months:**
+- Prefix sum → range queries
+- Two pointers → sorted pair/triplet
+- Sliding window → subarray constraints
+- Fast-slow → cycle, middle
+- Monotonic stack → next greater element
+- BFS → shortest path, level order
+- DFS → path sum, connected components
+- Top-k → heap
 
 ---
 
-### Week 2 (May 11–17): LinkedList + Searching + Stack + Queue
-| Day | Morning DSA | Lunch DSA |
-|-----|-------------|-----------|
-| Sun May 11 | LL: recursion + deletion videos + articles (33%→70%) | LL: 5 problems |
-| Mon May 12 | LL: 10 problems part 1 | Circular LL: articles |
-| Tue May 13 | LL: 10 problems part 2 + MCQs ✅ | Doubly LL: articles + Reverse video |
-| Wed May 14 | Searching: Binary Search video + articles + problems ✅ | Stack: LL-impl video + articles |
-| Thu May 15 | Stack: problems + Queue: Circular Queue video + articles | Queue: problems ✅ |
-| Fri May 16 | Revision: write LL reverse + Binary Search from memory | Write Stack/Queue from memory |
-| Sat May 17 | ⚔️ 8 LeetCode (LL + Search + Stack) | Review |
+## ☕ Java Course — Madan Reddy (URGENT: expires ~Jun 1)
+> **1.5 hrs every morning 5:30–7 AM. This is the most time-pressured item.**
 
-**✅ Week 2 Done:** LinkedList + Searching + Stack + Queue 100%
+### May Schedule (4 weeks)
+| Week | Topics |
+|------|--------|
+| **May 5–11** | Spring Boot basics, project setup, REST API (GET/POST/PUT/DELETE) |
+| **May 12–18** | Spring Data JPA + Hibernate, DB connection, CRUD repository |
+| **May 19–25** | Spring Security + JWT auth, exception handling, validation |
+| **May 26–31** | Microservices intro + Docker basics — apply to project |
 
 ---
 
-### Week 3 (May 18–24): Recursion + Tree + BST
-| Day | Morning DSA | Lunch DSA |
-|-----|-------------|-----------|
-| Sun May 18 | Recursion: ALL videos Day 1 (use full 3 hrs — essential) | Recursion: articles |
-| Mon May 19 | Recursion: remaining videos + articles + problems | Recursion: MCQs ✅ |
-| Tue May 20 | Tree: ALL traversal videos Day 1 (use full 3 hrs — essential) | Tree: articles |
-| Wed May 21 | Tree: height + diameter + level order problems + MCQs ✅ | BST: articles |
-| Thu May 22 | BST: Deletion + AVL videos + problems part 1 | BST: problems part 2 + MCQs ✅ |
-| Fri May 23 | Revision: write all 3 tree traversals + BST insert from memory | LeetCode: 3 Tree/BST problems |
-| Sat May 24 | ⚔️ 8 LeetCode (Recursion + Tree + BST) | Review |
+## 🤖 AI Course — Coursera Agentic AI (5–6:30 PM daily)
+> **1.5 hrs every evening. Watch module → immediately apply to project.**
 
-**✅ Week 3 Done:** Recursion + Tree + BST 100%
-
----
-
-### Week 4 (May 25–31): Heap + Java Libraries + CS Subjects + Wrap-up
-| Day | Morning DSA | Lunch DSA |
-|-----|-------------|-----------|
-| Sun May 25 | Heap: Heapify + Build Heap videos + problems ✅ | Java Libraries: ArrayList + HashMap |
-| Mon May 26 | Java Libraries: HashSet + PriorityQueue + Comparator | CS: OS interview Qs |
-| Tue May 27 | DSA Advanced: Math + Bit Magic | CS: Networks interview Qs |
-| Wed May 28 | DSA Advanced: Adv Arrays + Strings | SQL: 10 queries practice |
-| Thu May 29 | CS Subjects: DBMS + SQL basics | Graph: BFS + DFS intro |
-| Fri May 30 | Full revision: weakest 3 topics | Write RAG code on paper from memory |
-| Sat May 31 | ⚔️ Mock: 8 mixed LeetCode + STAR behavioural answers aloud | |
-
-**✅ Week 4 Done:** GFG Basics complete + CS Subjects covered
+### May + June Schedule
+| Month | Week | Topics |
+|-------|------|--------|
+| May | Week 1 | RAG fundamentals — embeddings, chunking, vector search |
+| May | Week 2 | LangChain basics — chains, prompts, retrievers |
+| May | Week 3 | LangGraph — stateful agents, tool calling |
+| May | Week 4 | Evaluation + multi-agent systems |
+| June | Week 1-2 | Agentic patterns + memory |
+| June | Week 3-4 | Deployment + course completion |
 
 ---
 
-### Jun 1 (Mon) — Final Day
-- Morning: Light revision only
-- Afternoon: Resume update + GitHub portfolio update
-- Evening: Prepare for Day 1 at new company
-- 10 PM: Sleep
+## 🏗️ Project — Build End-to-End (6:30–8 PM daily)
+> **ONE project. Ship it. Demo it on Day 30.**
+
+**Project: AI-Powered Job Prep Assistant**
+- Java Spring Boot backend (REST API)
+- Python FastAPI microservice (RAG + LangGraph agent)
+- React frontend (basic — use Harkirat only as reference)
+- FAISS vector search
+- Docker compose to run everything
+- Deploy on Render / Railway
+
+### 4-Week Build Plan
+| Week | Milestone |
+|------|-----------|
+| May 5–11 | Spring Boot project + first `/ask` endpoint working |
+| May 12–18 | RAG pipeline: PDF upload → chunk → embed → FAISS search |
+| May 19–25 | LangGraph agent: multi-step Q&A + memory |
+| May 26–31 | Docker compose + deployed URL + React frontend |
+
+**May 5 tonight:** Create GitHub repo. Name it. Write README. Push empty scaffold.
 
 ---
 
-## ☕ Java Course — Madan Reddy (Expires Jun 1 — URGENT)
+## 🐦 30-Day Twitter Plan (May 5 – Jun 3)
 
-> **1 hr every evening 6–7 PM. Do this daily without fail.**
-> License is tied to your current company. After June 1 = gone.
+### Post Template (takes 10 min)
+```
+Day X/30 🔥 #30DaysLockIn
 
-**Priority topics from course (skip what you know):**
-1. Spring Boot fundamentals + REST APIs
-2. Spring Data JPA + Hibernate
-3. Spring Security + JWT
-4. Microservices with Spring Cloud
-5. Docker + deployment
+📚 DSA: [Pattern] — [problem name] solved ✅
+☕ Java: [What you learned today]
+🤖 AI: [Course topic / what clicked]
+🏗️ Built: [Project milestone / commit]
 
----
+⏰ 4:30 AM wake ✅ | Score: __%
 
-## 🤖 AI Course — Coursera Agentic AI (7–8 PM daily)
-> 1 hr/evening. Watch module → apply immediately to project.
+#100DaysOfCode #Java #AIEngineering #BuildInPublic #LeetCode
+```
 
-**Course modules map to project:**
-| Module | Project Milestone |
-|--------|------------------|
-| RAG basics | PDF upload + vector search working |
-| LangChain agents | Question-answering endpoint |
-| LangGraph | Multi-step agent with state |
-| Evaluation | Test quality of answers |
-| Deployment | Docker + cloud deploy |
+### 30-Day Content Calendar
+| Days | Theme | Sample Content |
+|------|-------|---------------|
+| Day 1-3 | 🚀 Launch | Setting up Spring Boot, first API, why I'm doing this |
+| Day 4-7 | ⚙️ Backend | REST endpoints, Postman testing, JPA setup |
+| Day 8-10 | 🗄️ Database | Spring Data JPA, connecting DB, first CRUD |
+| Day 11-14 | 🔐 Security | JWT auth, Spring Security — how it works visually |
+| Day 15-17 | 🤖 AI Start | What RAG is, why it matters, LangChain first chain |
+| Day 18-21 | 🧠 Agent | LangGraph explained simply, my agent working |
+| Day 22-24 | 🐳 Docker | Dockerizing Spring Boot + Python — what I learned |
+| Day 25-27 | 🏗️ Project | Demo screenshots, what the app does, GitHub link |
+| Day 28-29 | 📊 DSA | Pattern you cracked this week + the code on paper |
+| Day 30 | 🎉 Wrap | What you built, what you learned, what's next |
 
----
+### Week-by-Week Posting Themes
 
-## 📋 Harkirat Full Stack — Reference Only (not sequential)
-> Jump to specific chapters only when your project needs it:
-- Need React? → Jump to React module
-- Need Next.js routing? → Jump to that chapter
-- Need API calls from frontend? → Use that section
-- **Don't start from Module 1**
+**Week 1 (May 5–11) — Java + Project Setup**
+- Day 1: "Starting my 30-day lock-in. 4:30 AM wake-ups. Java + AI Engineering + Building a real project."
+- Day 2: Spring Boot REST API explained in 4 lines of code
+- Day 3: "First endpoint working. Here's what I built today 👇"
+- Day 4: Arrays DSA pattern — prefix sum explained visually
+- Day 5: JPA setup + first DB query
+- Day 6: "Why I'm learning Java + AI together (not separately)"
+- Day 7: Week 1 recap — what I learned, what was hard
 
----
+**Week 2 (May 12–18) — Depth**
+- Day 8: Spring Security — how JWT actually works
+- Day 9: LangChain first chain — what surprised me
+- Day 10: Sliding window pattern — solved 2 medium problems
+- Day 11: "RAG pipeline working. PDF in → answer out 🤯"
+- Day 12: One thing I rewrote from memory today (code on paper)
+- Day 13: LangGraph — why agents need state
+- Day 14: Week 2 recap
 
-## 🔑 Rules
-1. **10 PM sleep. 4:30 AM wake. No exceptions for 30 days.**
-2. **DSA at 4:30 AM is sacred.** No phone. No distraction. Just GFG + LeetCode.
-3. **Java Course daily** — 1 hr. It expires June 1.
-4. **ONE project, finish it.** Not 3 half-baked things.
-5. **Harkirat = reference only.** Don't get sucked into tutorial hell.
-6. **Articles > videos** for most topics (see guide above).
-7. **Write code on paper 2x/week** — learned this the hard way at Persistent.
-8. **Commit to GitHub daily.**
+**Week 3 (May 19–25) — Building Momentum**
+- Day 15-21: Project demo screenshots, agent working, LinkedList patterns
+
+**Week 4 (May 22–31) — Shipping**
+- Day 22-30: Docker, deployment, final demo, 30-day reflection
 
 ---
 
@@ -226,9 +187,17 @@
 ```
 docs/study-flow/
   ├── MASTER_PLAN.md              ← YOU ARE HERE
-  ├── DAILY_CHECKLIST.md          ← Copy into notes app every day
-  ├── bhanu-daily-tracker-2026.csv     ← Google Sheets (formulas work there)
-  ├── bhanu-pattern-notebook.csv       ← Update when you learn a new pattern
-  ├── bhanu-weekly-review-2026.csv     ← Fill every Sunday 9–10 PM
-  └── INTERVIEW_ARCHIVE.md        ← Persistent lessons + RAG code to memorize
+  ├── DAILY_CHECKLIST.md          ← Copy into Notion every morning
+  ├── bhanu-daily-tracker-2026.csv     ← Google Sheets (formulas work)
+  ├── bhanu-pattern-notebook.csv       ← Update each new pattern learned
+  ├── bhanu-weekly-review-2026.csv     ← Fill Sunday 9 PM
+  └── INTERVIEW_ARCHIVE.md        ← Persistent lessons + RAG code
 ```
+
+## 🔑 Non-Negotiable Rules
+1. **4:30 AM wake. 10 PM sleep. 30 days.**
+2. **Java course first every morning** — expires Jun 1, don't lose it
+3. **DSA = 1 problem/day minimum.** Pattern-based. Not GFG % chasing.
+4. **ONE project. Ship it by Day 30.**
+5. **Twitter post every evening** — even 3 lines. Public = accountable.
+6. **Daily GitHub commit** — code or notes, doesn't matter.
