@@ -3,7 +3,7 @@ package arrays.prefixsum;
 public class D20260324_PrefixSum {
 
     public static void main(String[] args) {
-
+        
 
         /*
         Examples:

@@ -6,7 +6,7 @@ public class LargestElement {
   static int arr[] = {10, 324, 45, 90, 9808};
   
   // Method to find maximum in arr[]
-  static int largest()
+  static int findlargestElement()
   {
       int i;
       
@@ -25,6 +25,6 @@ public class LargestElement {
   // Driver method
   public static void main(String[] args) 
   {
-      System.out.println("Largest in given array is " + largest());
+      System.out.println("Largest in given array is " + findlargestElement());
      }
 }
