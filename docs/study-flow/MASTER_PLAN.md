@@ -1,6 +1,5 @@
 # 🎯 BHANU'S MASTER PLAN — Single Source of Truth
 > **Last Updated:** May 4, 2026
-> **Status:** Notice Period → Joining new company soon
 > **Start:** May 5 (Tuesday) — locked in
 
 ---
