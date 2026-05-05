@@ -7,7 +7,7 @@ public class D20260306_ArraysRotation_ConstantSpace {
 	/*
 
 	Store the first element in some temporary variable.
-	Now iterate and do arr[i] = arr[i+1]
+	Now iterate and left shift the elements arr[i] = arr[i+1]
 
 	and keep arr[length-1] = temp
 

@@ -23,7 +23,40 @@ public class D20260323_SumOfKElements {
 
     }
 
+    /*
+     * 
+     * Naive solution
+     */
+    public static int maxSumNaive(int[] arr, int k) {
+        int n = arr.length;
+        
+        // Edge case: if window size is larger than array
+        if (n < k) {
+            System.out.println("Invalid size");
+            return -1;
+        }
 
+        // Initialize max_sum to the smallest possible value
+        int max_sum = Integer.MIN_VALUE;
+
+        // Outer loop: Iterate through each starting point of a block
+        // Runs (n - k + 1) times
+        // we do n-k because some times k can Exceed n results in arrayoutOfBoundException.
+        for (int i = 0; i <= n - k; i++) {
+            int current_sum = 0;
+
+            // Inner loop: Calculate sum of the block starting at i
+            // Runs k times
+            for (int j = 0; j < k; j++) {
+                current_sum += arr[i + j];
+            }
+
+            // Update max_sum if the current block's sum is larger
+            max_sum = Math.max(max_sum, current_sum);
+        }
+
+        return max_sum;
+    }
 
     /*
 
@@ -43,12 +76,13 @@ public class D20260323_SumOfKElements {
 
         int window_sum = 0;
 
-        //calculate the sum of first k elements.
+        
         int length = arr.length;
         if(k>length){
             return -1;
         }
-
+        
+        //calculate the sum of first k elements.
         for(int i = 0; i < k;i++){
             window_sum += arr[i];
         }
