@@ -1,7 +1,7 @@
 package arrays.arraylist;
 
 //Java Program to find maximum in arr[] 
-public class LargestElement {
+public class D20260706_LargestElement {
 	
   static int arr[] = {10, 324, 45, 90, 9808};
   

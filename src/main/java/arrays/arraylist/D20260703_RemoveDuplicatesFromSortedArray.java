@@ -1,6 +1,6 @@
 package arrays.arraylist;
 
-public class RemoveDuplicatesFromSortedArray {
+public class D20260703_RemoveDuplicatesFromSortedArray {
 	
 	
 	public static void main(String[] args) {
