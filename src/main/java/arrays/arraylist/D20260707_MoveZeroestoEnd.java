@@ -1,6 +1,6 @@
 package arrays.arraylist;
 
-class PushZero
+class D20260707_MoveZeroestoEnd
 {
     // Function which pushes all zeros to end of an array.
     static void pushZerosToEnd(int arr[], int n)
