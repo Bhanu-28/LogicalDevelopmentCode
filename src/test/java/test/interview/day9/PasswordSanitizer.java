@@ -44,6 +44,7 @@ class PasswordSanitizer {
             // only letters
             // only digits
             // only special chars
+            // 1 case missed
             if (!onlyLetters && !onlyDigits && hasAlphaNumeric) {
 
                 if (ans.length() > 0) {
