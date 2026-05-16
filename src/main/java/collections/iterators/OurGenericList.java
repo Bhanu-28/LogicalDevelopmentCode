@@ -10,6 +10,7 @@ public class OurGenericList<T> implements Iterable<T>{
 	
 	
 	
+	@SuppressWarnings("unchecked")
 	public OurGenericList() {
 		size = 0;
 		items = (T[]) new Object[100];
@@ -44,12 +45,14 @@ public class OurGenericList<T> implements Iterable<T>{
 
 		@Override
 		public boolean hasNext() {
+			
+			System.out.println("has next has been called");
 			return index < list.size;
 		}
 
 		@Override
 		public T next() {
-			
+			System.out.println("next has been called");
 			return list.items[index++];
 		}
 		

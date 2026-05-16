@@ -19,10 +19,16 @@ public static void main(String[] args) {
 	
 	Iterator<Integer> iterator = genericList.iterator();
 	
-	System.out.print("Elements in the generic list were : ");
+	System.out.println("Elements in the generic list were : ");
 	while(iterator.hasNext()) {
 		System.out.printf(iterator.next()+" "); 
 		
+	}
+	
+	// sugar coat with for each loop
+	// compiler will convert this piece of code to above code.
+	for(int x : genericList) {
+		System.out.println(x);
 	}
 	
 }	

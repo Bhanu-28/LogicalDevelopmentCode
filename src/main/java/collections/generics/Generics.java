@@ -14,7 +14,7 @@ public class Generics {
 		System.out.println(testInteger.getObj());
 		
 		
-		// instance of integer
+		// instance of String
 		Test<String> testString = new Test<>("bhanu");
 				
 		System.out.println(testString.getObj());
