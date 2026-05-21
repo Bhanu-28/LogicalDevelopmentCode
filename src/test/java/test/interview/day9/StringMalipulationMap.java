@@ -12,14 +12,14 @@ public class StringMalipulationMap {
 
 	    List<String> input = Arrays.asList("apple","ball","cat","ant",null,"ANT");
 
-	    List<String> result = input.stream()
+	    List<String> output = input.stream()
 	        .filter(Objects::nonNull)
 	        .filter(s -> s.toLowerCase().startsWith("a"))
 	        .map(String::toUpperCase)
 	        .distinct()
 	        .collect(Collectors.toList());
 
-	    System.out.println(result);
+	    System.out.println(output);
 
 	}
 
