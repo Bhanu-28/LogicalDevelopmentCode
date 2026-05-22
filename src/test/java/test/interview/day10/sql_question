@@ -1,0 +1,14 @@
+emp id name and salary report each and every salary report. 
+
+salary amount and how many getting that.
+
+
+SELECT salary, COUNT(*) 
+        AS total_employees 
+        FROM Employee
+        GROUP By salary;
+        
+SELECT salary, GROUP_CONCAT(employee_name) AS employee_names,
+                COUNT(*) AS total_employees
+                FROM Employee
+                GROUP By salary;
