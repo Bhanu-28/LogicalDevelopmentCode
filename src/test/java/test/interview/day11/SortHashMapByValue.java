@@ -1,6 +1,8 @@
 package test.interview.day11;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -40,6 +42,23 @@ public class SortHashMapByValue {
 	  System.out.println(entryList);
 	
 	  // sort the list by value
+	  
+	  
+	  // using old anonymous classes.
+	  Collections.sort(entryList,
+			    new Comparator<Entry<String,Integer>>() {
+
+			        @Override
+			        public int compare(
+			            Entry<String,Integer> x,
+			            Entry<String,Integer> y) {
+
+			            return x.getValue().compareTo(y.getValue());
+			        }
+			});
+	  
+	  // using lambda expressions.
+	  
 	  entryList.sort((x, y) -> x.getValue().compareTo(y.getValue()));
 	  System.out.println(entryList);
 	
@@ -48,6 +67,7 @@ public class SortHashMapByValue {
 	   sortedByValue.put(e.getKey(), e.getValue());
 	
 	  return sortedByValue;
+	 
 	 }
 
 }
