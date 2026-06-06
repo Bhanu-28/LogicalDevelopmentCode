@@ -1,0 +1,18 @@
+Design an order management system capable of handling a 100x traffic spike during a limited-time flash sale.
+Customers will attempt to purchase limited-stock products simultaneously. The system must process orders reliably while maintaining inventory accuracy and providing a good customer experience.
+Requirements
+Accept a large volume of concurrent purchase requests.
+Prevent overselling of inventory.
+Process orders and payments reliably.
+Handle duplicate requests (e.g., users clicking "Buy" multiple times).
+Make order events available to downstream systems such as fulfillment, notifications, and analytics.
+Consider
+High-level infrastructure and service design.
+Scalability and traffic spike handling.
+Fault tolerance and recovery mechanisms.
+Database bottlenecks and storage strategy.
+Caching requirements.
+Rate limiting and backpressure.
+Consistency vs availability trade-offs.
+You may make reasonable assumptions regarding traffic volume, inventory size, latency requirements, and SLAs. 
+ 
