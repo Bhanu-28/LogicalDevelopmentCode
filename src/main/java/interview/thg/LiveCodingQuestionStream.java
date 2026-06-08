@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class LiveCodingQuestion {
+public class LiveCodingQuestionStream {
 	
 	public static void main(String[] args) {
 		String[][] array = new String[][]{{"a", "b"}, {"c", "d"}, {"e", "f"}};
@@ -69,6 +69,12 @@ public class LiveCodingQuestion {
 	            Arrays.asList(1, 2),
 	            Arrays.asList(3, 4)
 	        );
+		
+		
+		System.out.println();
+		numbers.stream()
+		.flatMap(List<Integer>::stream)
+		.forEach(System.out::print);
 
 	       
 	}
