@@ -45,9 +45,9 @@ public class Generics {
         
         // Creating a an ArrayList with String specified
         // to solve above issue
-        ArrayList <? super String> stringArray = new ArrayList<> ();
+        ArrayList <? super String> stringArrayList = new ArrayList<> ();
         
-        stringArray.add("test");
+        stringArrayList.add("test");
 		
 	}
 	
