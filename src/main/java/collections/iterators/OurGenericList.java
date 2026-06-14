@@ -29,10 +29,18 @@ public class OurGenericList<T> implements Iterable<T>{
 	@Override
 	public Iterator<T> iterator() {
 		
-		return new OurGenericListIterator(this);
+		Iterator<T> iterator =  new OurGenericListIterator(this);
+		
+		return iterator;
 	}
 	
-	private class OurGenericListIterator  implements Iterator<T>{
+	// just a sample code for getIterator not required.
+	public OurGenericListIterator getIterator() {
+	    return new OurGenericListIterator(this);
+	}
+	
+	// will keep private for production.
+	public class OurGenericListIterator  implements Iterator<T>{
 		
 		
 		private OurGenericList<T> list;

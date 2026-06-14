@@ -31,6 +31,15 @@ public static void main(String[] args) {
 		System.out.println(x);
 	}
 	
+	
+	/*
+	 * 
+	 * Test code for returning OurGenericListIterator
+	 */
+	OurGenericList<Integer>.OurGenericListIterator it2 =
+	        genericList.getIterator();
+	
+	System.out.println(it2.hasNext());
 }	
 	
 
