@@ -24,12 +24,15 @@ public class ArrayListPractice {
 		Iterator<Integer> iterator = arrayList.iterator();
 		
 		while(iterator.hasNext()) {
-			System.out.print(iterator.next());
+			System.out.print(" "+iterator.next());
 		}
+		
+		System.out.println();
 		
 		// Replacing an element.
 		
 		Integer previousElement = arrayList.set(2, 100);
+		System.out.println("Element which got replaced : "+previousElement);
 	}
 
 }
