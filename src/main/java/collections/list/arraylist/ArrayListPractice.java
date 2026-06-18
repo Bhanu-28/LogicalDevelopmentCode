@@ -8,6 +8,11 @@ public class ArrayListPractice {
 	public static void main(String[] args) {
 		
 		
+		
+		// collections are generic interfaces always have to pass references.
+		// int --> Integer float --> Float double -> Double (wrapper classes) --> read this
+		// boxing and unboxing. --> when u use Integer and in for each when u got the element compiler automically converts that to int and pass it. --> this is unboxing.
+		
 		List<Integer> arrayList = new ArrayList<>();
 		
 		arrayList.add(1);
@@ -33,6 +38,19 @@ public class ArrayListPractice {
 		
 		Integer previousElement = arrayList.set(2, 100);
 		System.out.println("Element which got replaced : "+previousElement);
+		
+		
+		// create a new arrayList by passing an collection in constructor.
+		// u can pass any collection instead of arrayList.
+		List<Integer> arrayList2 = new ArrayList<>(arrayList);
+		
+		arrayList2.add(2);
+		
+		System.out.println("array list 2 : "+arrayList2);
+		
+		
+		
+		
 	}
 
 }
