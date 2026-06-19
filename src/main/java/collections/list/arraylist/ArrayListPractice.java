@@ -48,7 +48,15 @@ public class ArrayListPractice {
 		
 		System.out.println("array list 2 : "+arrayList2);
 		
+		// adding elements in pre-existing arralist with elements and addOther elements.
 		
+		List<Integer> arrayList3 = new ArrayList<>();
+		
+		arrayList3.add(007);
+		arrayList3.addAll(arrayList2);
+		
+		
+		System.out.println("arrayList3 : "+arrayList3);
 		
 		
 	}
