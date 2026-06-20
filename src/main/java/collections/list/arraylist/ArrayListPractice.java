@@ -55,9 +55,16 @@ public class ArrayListPractice {
 		arrayList3.add(007);
 		arrayList3.addAll(arrayList2);
 		
+		arrayList3.add(7);
 		
 		System.out.println("arrayList3 : "+arrayList3);
 		
+		// find index of element
+		System.out.println(arrayList3.indexOf(7));// here boxing will happen and it will converted to Integer wrapper class internally
+		System.out.println(arrayList3.indexOf( new Integer(7))); 
+		
+		// find last index of element.
+		System.out.println(arrayList3.lastIndexOf(7));
 		
 	}
 
