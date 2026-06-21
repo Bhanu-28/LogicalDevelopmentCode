@@ -60,11 +60,24 @@ public class ArrayListPractice {
 		System.out.println("arrayList3 : "+arrayList3);
 		
 		// find index of element
-		System.out.println(arrayList3.indexOf(7));// here boxing will happen and it will converted to Integer wrapper class internally
+		System.out.println("Index of Element :"arrayList3.indexOf(7));// here boxing will happen and it will converted to Integer wrapper class internally
 		System.out.println(arrayList3.indexOf( new Integer(7))); 
 		
 		// find last index of element.
-		System.out.println(arrayList3.lastIndexOf(7));
+		System.out.println("last index :"+arrayList3.lastIndexOf(7));
+		
+		
+		// Sub List.
+		// from index is inclusive and toIndex is exclusive.
+		List<Integer> subList = arrayList3.subList(1, 4);
+		
+		System.out.println("sub list : "+subList);
+		
+		subList.set(2,3);
+		
+		System.out.println("subList after replacing 2nd indexed element :"+subList);
+		
+		System.out.println("Main List from which we create subList :"+arrayList3);
 		
 	}
 
