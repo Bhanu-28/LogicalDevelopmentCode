@@ -77,6 +77,11 @@ public class ArrayListPractice {
 		
 		System.out.println("subList after replacing 2nd indexed element :"+subList);
 		
+		
+		// doesn't creates copy it just gives view.
+		// underlying contents will get changed shallow copy that is being done here 
+		// be conscious here.
+		// Its not deep copy it is just copy of reference.
 		System.out.println("Main List from which we create subList :"+arrayList3);
 		
 	}
