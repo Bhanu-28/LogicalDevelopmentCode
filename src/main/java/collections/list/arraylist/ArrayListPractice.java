@@ -48,7 +48,7 @@ public class ArrayListPractice {
 		
 		System.out.println("array list 2 : "+arrayList2);
 		
-		// adding elements in pre-existing arralist with elements and addOther elements.
+		// adding elements in pre-existing arraylist with elements and addOther elements.
 		
 		List<Integer> arrayList3 = new ArrayList<>();
 		
@@ -74,6 +74,7 @@ public class ArrayListPractice {
 		System.out.println("sub list : "+subList);
 		
 		subList.set(2,3);
+		subList.add(4);
 		
 		System.out.println("subList after replacing 2nd indexed element :"+subList);
 		
