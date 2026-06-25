@@ -2,6 +2,7 @@ package collections.list.arraylist;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 public class ArrayListPractice {
 	
@@ -14,6 +15,7 @@ public class ArrayListPractice {
 		// boxing and unboxing. --> when u use Integer and in for each when u got the element compiler automically converts that to int and pass it. --> this is unboxing.
 		
 		List<Integer> arrayList = new ArrayList<>();
+		
 		
 		arrayList.add(1);
 		arrayList.add(2);
@@ -33,6 +35,7 @@ public class ArrayListPractice {
 		}
 		
 		System.out.println();
+		
 		
 		// Replacing an element.
 		
@@ -84,6 +87,19 @@ public class ArrayListPractice {
 		// be conscious here.
 		// Its not deep copy it is just copy of reference.
 		System.out.println("Main List from which we create subList :"+arrayList3);
+		
+		
+		// LinkedList
+		
+		List<Integer> linkedList = new LinkedList<>();
+		
+		linkedList.add(1);
+		linkedList.add(2);
+		linkedList.add(3);
+		
+		System.out.println(linkedList);
+		
+		
 		
 	}
 
