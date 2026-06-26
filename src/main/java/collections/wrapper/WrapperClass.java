@@ -1,4 +1,4 @@
-package collections.list.arraylist;
+package collections.wrapper;
 
 public class WrapperClass {
 	

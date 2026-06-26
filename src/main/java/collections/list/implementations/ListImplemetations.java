@@ -1,11 +1,11 @@
-package collections.list.arraylist;
+package collections.list.implementations;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class ArrayListPractice {
+public class ListImplemetations {
 	
 	public static void main(String[] args) {
 		
