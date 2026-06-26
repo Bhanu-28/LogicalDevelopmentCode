@@ -1,5 +1,6 @@
 package collections.list.arraylist;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -89,6 +90,22 @@ public class ArrayListPractice {
 		System.out.println("Main List from which we create subList :"+arrayList3);
 		
 		
+		// exploring List Iterator.
+		
+		ListIterator<Integer> listIterator = arrayList2.listIterator();
+		
+		while(listIterator.hasNext()) {
+			System.out.print(listIterator.next().toString()+" ");
+			
+		}
+		System.out.println();
+		
+		// traversing array in reverse order.
+		while(listIterator.hasPrevious()) {
+			System.out.print(listIterator.previous().toString()+" ");
+		}
+		
+		System.out.println();
 		// LinkedList
 		
 		List<Integer> linkedList = new LinkedList<>();
@@ -99,7 +116,11 @@ public class ArrayListPractice {
 		
 		System.out.println(linkedList);
 		
+		ListIterator<Integer> listIterator2 = linkedList.listIterator();
 		
+		System.out.println(listIterator2.next()); // here next will be return [index++] it will current position and go to next.
+		System.out.println(listIterator2.next());
+		System.out.println(listIterator2.previous());
 		
 	}
 
