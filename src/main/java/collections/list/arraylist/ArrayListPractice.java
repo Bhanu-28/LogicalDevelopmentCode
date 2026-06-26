@@ -122,6 +122,37 @@ public class ArrayListPractice {
 		System.out.println(listIterator2.next());
 		System.out.println(listIterator2.previous());
 		
+		/*
+		 * 
+		 * ### Rule to remember
+			
+			- **Array too small** → Java creates a **new array**.
+			- **Array exactly the right size** → Java fills the **same array**.
+			- **Array larger than needed** → Java fills the **same array**, sets the **first unused position** to `null`,
+			 and leaves the rest unchanged.
+		 */
+		// convert an ArrayList to Array will be asked many times.
+		Integer[] array = linkedList.toArray(new Integer[0]);
+		
+		for(int arr: array) {
+			System.out.print(arr+" ");
+		}
+		
+		System.out.println();
+		// sending an existing array.
+		
+		Integer[] normalArray = {1000,2000,3000,4000,5000,9000};
+		
+		Integer[] array2 = linkedList.toArray(normalArray);
+		
+		
+		// instead of unboxing due to Null Pointer Issue use Integer directly.
+		// or u can directly check till size of linkedlist.
+		for(Integer x : array2) {
+			System.out.print(x+" ");
+		}
+		
+		
 	}
 
 }
