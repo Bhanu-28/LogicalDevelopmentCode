@@ -1,4 +1,6 @@
-package interview.salesforce;
+package interview.salesforce.impl;
+
+import interview.salesforce.iface.NotificationSender;
 
 public class EmailNotificationSender implements NotificationSender{
 	

@@ -1,4 +1,6 @@
-package interview.salesforce;
+package interview.salesforce.service;
+
+import interview.salesforce.iface.NotificationSender;
 
 public class NotificationService {
 	private NotificationSender sender;
