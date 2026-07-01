@@ -1,8 +1,11 @@
 package collections.queue;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -83,6 +86,29 @@ public class QueueImplementations {
 		System.out.println(deque2);
 		
 		System.out.println("-----DeQueue END-----");
+		
+		
+		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+		
+		priorityQueue.offer(1);
+		priorityQueue.offer(2);
+		priorityQueue.offer(3);
+		priorityQueue.offer(5);
+		priorityQueue.offer(0);
+		priorityQueue.offer(100);
+		
+		
+		List<Integer> top2 = new ArrayList<>();
+		int index = 0;
+		while(!priorityQueue.isEmpty()) {
+			if(index ==2)
+				break;
+			top2.add(priorityQueue.poll());
+			index++;
+		}
+		System.out.println("test");
+		System.out.println("top2 : "+top2);
+		System.out.println("priorityQueue : "+priorityQueue);
 		
 	}
 	
