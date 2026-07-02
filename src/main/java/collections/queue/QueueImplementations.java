@@ -110,6 +110,11 @@ public class QueueImplementations {
 		System.out.println("top2 : "+top2);
 		System.out.println("priorityQueue : "+priorityQueue);
 		
+		
+		// what if we want top2 elements instead of bottom2
+		
+		
+		
 	}
 	
 
