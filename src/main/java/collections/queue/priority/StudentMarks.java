@@ -1,6 +1,6 @@
 package collections.queue.priority;
 
-public class StudentMarks {
+public class StudentMarks implements Comparable<StudentMarks>{
 	
 	private int physics;
 	private int maths;
@@ -21,6 +21,25 @@ public class StudentMarks {
 
 	public int getMaths() {
 		return maths;
+	}
+
+	@Override
+	public int compareTo(StudentMarks o) {
+		
+		/*
+		 * 
+		 * 1. current object is less than other object return -1 any negative
+		 * 2. current object is greater than other object return +1 any positive
+		 * 2. current object is equal to other object return 0
+		 */
+		
+		if(this.maths < o.maths) 
+			return -1;
+		if(this.maths > o.maths)
+			return 1;
+		else
+			return 0;
+		
 	}
 	
 	
