@@ -29,7 +29,7 @@ public class PriorityImplementation {
 			index++;
 		}
 		
-		System.out.println(top3);
+		System.out.println("Top3 students of Maths marks :"+top3);
 		
 	}
 	

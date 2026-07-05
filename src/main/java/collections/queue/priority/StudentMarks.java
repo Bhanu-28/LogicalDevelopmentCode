@@ -33,12 +33,16 @@ public class StudentMarks implements Comparable<StudentMarks>{
 		 * 2. current object is equal to other object return 0
 		 */
 		
-		if(this.maths < o.maths) 
-			return -1;
-		if(this.maths > o.maths)
-			return 1;
-		else
-			return 0;
+//		if(this.maths < o.maths) 
+//			return -1;
+//		if(this.maths > o.maths)
+//			return 1;
+//		else
+//			return 0;
+		
+		// descending
+		System.out.println("comapare to is called");
+		return o.maths - this.maths;
 		
 	}
 	
