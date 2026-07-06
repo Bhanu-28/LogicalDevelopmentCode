@@ -9,6 +9,8 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
+import collections.queue.priority.CustomerComparatorClass;
+
 public class QueueImplementations {
 	
 	
@@ -88,7 +90,7 @@ public class QueueImplementations {
 		System.out.println("-----DeQueue END-----");
 		
 		
-		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new CustomerComparatorClass());
 		
 		priorityQueue.offer(1);
 		priorityQueue.offer(2);
