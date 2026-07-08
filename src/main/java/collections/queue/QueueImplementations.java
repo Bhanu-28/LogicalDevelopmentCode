@@ -89,9 +89,12 @@ public class QueueImplementations {
 		
 		System.out.println("-----DeQueue END-----");
 		
+		// custom comparator
+		//PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new CustomerComparatorClass());
 		
-		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new CustomerComparatorClass());
-		
+		// lambda comparator
+		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>((a,b)-> b- a);
+
 		priorityQueue.offer(1);
 		priorityQueue.offer(2);
 		priorityQueue.offer(3);
