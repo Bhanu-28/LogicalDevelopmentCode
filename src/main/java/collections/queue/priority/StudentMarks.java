@@ -41,7 +41,7 @@ public class StudentMarks implements Comparable<StudentMarks>{
 //			return 0;
 		
 		// descending
-		System.out.println("comapare to is called");
+		System.out.println("Comparable comapareTo method is called");
 		return o.maths - this.maths;
 		
 	}

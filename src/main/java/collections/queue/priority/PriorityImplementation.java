@@ -32,7 +32,10 @@ public class PriorityImplementation {
 		System.out.println("Top3 students of Maths marks :"+top3);
 		
 		
-		PriorityQueue<StudentMarks> spq = new PriorityQueue<>((s1,s2)->	s2.getPhysics()-s1.getPhysics());
+		PriorityQueue<StudentMarks> spq = new PriorityQueue<>((s1,s2)->	{
+			System.out.println("Comparator Compare method is called");
+			return s2.getPhysics()-s1.getPhysics();
+		});
 		
 		for(StudentMarks sm : stMarksList) {
 				spq.add(sm);
