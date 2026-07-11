@@ -33,6 +33,8 @@ public class ImplementingSetClass {
 		
 		System.out.println("after retaining");
 		
+
+		
 		
 		/*
 		 * 
@@ -41,6 +43,15 @@ public class ImplementingSetClass {
 		 * Now set1 will have all the intersection elements.
 		 */
 		set1.retainAll(set2);
+		
+		
+		System.out.println("set 1 : "+set1);
+		System.out.println("set 2 : "+set2);
+		
+		// common will be removed from set 1 so will be blank as both were same.
+		System.out.println("After removing");
+		
+		set1.removeAll(set2);
 		
 		System.out.println("set 1 : "+set1);
 		System.out.println("set 2 : "+set2);
