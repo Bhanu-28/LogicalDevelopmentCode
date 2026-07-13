@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Set;
 
 public class ImplementingSetClass {
@@ -82,6 +83,29 @@ public class ImplementingSetClass {
 		
 		System.out.println("LinkedHashSet which maintains order: "+set4);
 		
+		// Custom Type student marks
+		
+		List<StudentMarks> stMarksList = new ArrayList<>();
+		
+		stMarksList.add(new StudentMarks(80,50));
+		stMarksList.add(new StudentMarks(100,30));
+		stMarksList.add(new StudentMarks(60,20));
+		stMarksList.add(new StudentMarks(90,70));
+		stMarksList.add(new StudentMarks(120,60));
+		
+		Set<StudentMarks> studentMarks = new HashSet<>(stMarksList);
+		
+		System.out.println(studentMarks);
+		
+		// ideally it should true right why false?
+		/*
+		 * Because of Internal implementation HashSet
+		 * whenever a object is created it will generate an hashCode and keep them in the Bucket.
+		 * Inside the bucket it will check whether it is equals or not if not it will return false.
+		 * so Implement Hashcode and equals() method.
+		 */
+		System.out.println("Now Implemented hashcode and equals");
+		System.out.println(studentMarks.contains(new StudentMarks(100, 30)));
 		
 		
 	}
