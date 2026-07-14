@@ -146,6 +146,9 @@ public class ImplementingSetClass {
 		System.out.println("ceiling  : "+set5.ceiling(7));
 		System.out.println("floor : "+set5.floor(7));
 		
+		System.out.println("higher  : "+set5.higher(8));
+		System.out.println("lower : "+set5.lower(10));
+		
 		
 		
 	}
