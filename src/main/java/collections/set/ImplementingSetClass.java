@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.NavigableSet;
 import java.util.PriorityQueue;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class ImplementingSetClass {
 	
@@ -106,6 +108,44 @@ public class ImplementingSetClass {
 		 */
 		System.out.println("Now Implemented hashcode and equals");
 		System.out.println(studentMarks.contains(new StudentMarks(100, 30)));
+		
+		// Treeset
+		
+		Set<StudentMarks> treeSet = new TreeSet<>((a,b)->b.getPhysics()-a.getPhysics());
+		
+		treeSet.add(new StudentMarks(80,50));
+		treeSet.add(new StudentMarks(100,30));
+		treeSet.add(new StudentMarks(60,20));
+		treeSet.add(new StudentMarks(90,70));
+		treeSet.add(new StudentMarks(120,60));
+		
+		for(StudentMarks x :treeSet) {
+			System.out.print(x+",");
+		}
+		
+		NavigableSet<Integer> set5 = new TreeSet<>();
+		
+		set5.add(0);
+		set5.add(8);
+		set5.add(3);
+		set5.add(10);
+		
+		for(int x : set5) {
+			System.out.print(x+",");
+		}
+		System.out.println();
+		
+		/*
+		 * 
+		 * 	- `ceiling(e)`: Returns the least element **greater than or equal to** `e`.
+			- `floor(e)`: Returns the greatest element **less than or equal to** `e`.
+			- `higher(e)`: Returns the least element **strictly greater than** `e`.
+			- `lower(e)`: Returns the greatest element **strictly less than** `e`.
+		 */
+		
+		System.out.println("ceiling  : "+set5.ceiling(7));
+		System.out.println("floor : "+set5.floor(7));
+		
 		
 		
 	}
