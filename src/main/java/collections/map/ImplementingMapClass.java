@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.NavigableMap;
 import java.util.Set;
+import java.util.TreeMap;
 
 public class ImplementingMapClass {
 	
@@ -14,10 +16,11 @@ public class ImplementingMapClass {
 		
 		Map<Integer, String> map = new HashMap<>();
 		
-		map.put(1, "Bhanu");
-		map.put(2, "Pradeep");
-		map.put(3, "Kumar");
+		map.put(100, "test1");
 		map.put(4, "test");
+		map.put(2, "Pradeep");
+		map.put(1, "Bhanu");
+		map.put(3, "Kumar");
 		
 		System.out.println(map.getOrDefault(1, "default"));
 		System.out.println(map.containsValue("test"));
@@ -60,7 +63,7 @@ public class ImplementingMapClass {
 		
 		Set<Entry<Integer, String>> entrySet = map.entrySet();
 		
-		for(Map.Entry<Integer,String> entry : entrySet) {
+		for(Entry<Integer,String> entry : entrySet) {
 			
 			System.out.println("key :"+entry.getKey()+" Value : "+entry.getValue());
 			
@@ -69,13 +72,27 @@ public class ImplementingMapClass {
 		Set<Integer> keySet = map.keySet();
 		System.out.println("Keys ");
 		for(Integer key : keySet) {
-			System.out.print(key+",");
+			System.out.print(key+"");
 		}
 		
+		// Tree Map.
+		
+		NavigableMap<Integer, String> treeMap = new TreeMap<>();
+		
+		treeMap.put(100, "test1");
+		treeMap.put(1, "Bhanu");
+		treeMap.put(2, "Pradeep");
+		treeMap.put(3, "Kumar");
+		treeMap.put(4, "test");
 		
 		
+		Set<Entry<Integer, String>> treeEntrySet = treeMap.entrySet();
 		
+		for(Entry<Integer, String> entry : treeEntrySet) {
+			System.out.println("key :"+entry.getKey()+" Value : "+entry.getValue());
+		}
 		
+		System.out.println(treeMap.ceilingEntry(9));
 		
 	}
 
