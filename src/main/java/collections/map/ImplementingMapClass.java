@@ -1,6 +1,8 @@
 package collections.map;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -93,6 +95,30 @@ public class ImplementingMapClass {
 		}
 		
 		System.out.println(treeMap.ceilingEntry(9));
+		
+		
+		Integer arr[] = new Integer[] {1,200,3,4,100};
+		Arrays.sort(arr);
+		
+		
+		List<Integer> asList = Arrays.asList(arr);
+		
+		// convert list to array
+		asList.toArray();
+		
+		// binary search
+		
+		System.out.println(Collections.binarySearch(asList, 300));
+		
+		// can pass custom comparator.
+		Collections.sort(asList,Collections.reverseOrder());
+		
+		
+		
+		for(int x : arr) {
+			System.out.print(x+",");
+		}
+		
 		
 	}
 
