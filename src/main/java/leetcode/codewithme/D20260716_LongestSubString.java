@@ -7,9 +7,10 @@ public class D20260716_LongestSubString {
 	
 	    public static void main(String[] args) {
 	        String input = "cadbzabcd";
+	        String input2 = "acdbzabc";
 
 	        
-	        int length = lengthOfLongestSubstringSW(input);
+	        int length = lengthOfLongestSubstringSW(input2);
 
 	        System.out.println("Length of longest substring without repeating characters: " + length);
 	    }
@@ -42,6 +43,7 @@ public class D20260716_LongestSubString {
 	        
 	    	
 	    	// input : "c a d b z a b c d";
+	    	// acdbzabc
 	    	int size = s.length();
 	    	
 	    	int hash[] = new int[256];
@@ -54,7 +56,7 @@ public class D20260716_LongestSubString {
 	    	
 	    	while(right<size) {
 	    		
-	    		if(hash[s.charAt(right)] >= 1) {
+	    		if(hash[s.charAt(right)] >= left) {
 	    			left = Math.max(hash[s.charAt(right)]+1,left);
 	    		}
 	    		int len = right - left + 1;
