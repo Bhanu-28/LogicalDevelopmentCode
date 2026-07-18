@@ -55,7 +55,8 @@ public class D20260716_LongestSubString {
 	    	int maxLength = 0;
 	    	
 	    	while(right<size) {
-	    		
+	    		/* If current character s.charAt(r) 
+	               is already in the substring */
 	    		if(hash[s.charAt(right)] >= left) {
 	    			left = Math.max(hash[s.charAt(right)]+1,left);
 	    		}
